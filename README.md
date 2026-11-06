@@ -18,9 +18,22 @@ Sample data: the public feeds of various browser blogs. Tags, favorites and read
 
 ## Installation
 
-1. Open the browser's extensions page (`chrome://extensions`, `vivaldi://extensions`) and turn on **Developer mode**.
-2. Click **Load unpacked** and choose this folder.
-3. Click the extension icon in the toolbar to open the panel.
+### From a release
+
+1. Download the `side-panel-rss-reader-x.y.z.zip` file from the [latest release](https://github.com/C1p86/side-panel-rss-reader/releases/latest).
+2. Extract it to a folder you will keep: the browser loads the extension from there.
+3. Open the browser's extensions page (`chrome://extensions`, `vivaldi://extensions`) and turn on **Developer mode**.
+4. Click **Load unpacked** and choose the extracted folder.
+5. Click the extension icon in the toolbar to open the panel.
+
+To update, replace the contents of that folder with the new release and click the reload button on the extensions page. Keeping the same folder also keeps your feeds and settings.
+
+### From source
+
+1. Clone this repository.
+2. Open the browser's extensions page (`chrome://extensions`, `vivaldi://extensions`) and turn on **Developer mode**.
+3. Click **Load unpacked** and choose the repository folder.
+4. Click the extension icon in the toolbar to open the panel.
 
 ### If the panel does not open in Vivaldi
 
