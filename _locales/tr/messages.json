@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "Yan panelde RSS okuyucu: makaleyi özgün sayfadan çıkarır ve okuma modunda gösterir."
+  },
+  "actionTitle": {
+    "message": "RSS Reader'ı aç"
+  },
+  "homeTitle": {
+    "message": "Akışlar"
+  },
+  "refresh": {
+    "message": "Akışları yenile"
+  },
+  "menu": {
+    "message": "Akışlar ve ayarlar"
+  },
+  "searchAll": {
+    "message": "Tüm akışlarda ara"
+  },
+  "tagsHeading": {
+    "message": "Etiketler"
+  },
+  "noFeeds": {
+    "message": "Henüz akış yok. Menüden bir akış ekleyin."
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "searchArticles": {
+    "message": "Başlık, metin, etiket ve notlarda ara"
+  },
+  "filterByTag": {
+    "message": "Etikete göre filtrele"
+  },
+  "unreadOnly": {
+    "message": "Okunmamış"
+  },
+  "favorites": {
+    "message": "Favoriler"
+  },
+  "markAllRead": {
+    "message": "Okundu olarak işaretle"
+  },
+  "markAllReadTitle": {
+    "message": "Görünen makaleleri okundu olarak işaretle"
+  },
+  "addPlaceholder": {
+    "message": "Akış veya site URL’si"
+  },
+  "add": {
+    "message": "Ekle"
+  },
+  "feederQuestion": {
+    "message": "Bu adreste akış bulunamadı. Feeder ile aramayı denemek ister misiniz?"
+  },
+  "feederHint": {
+    "message": "Adres, parametreler olmadan Feeder’a gönderilir."
+  },
+  "yes": {
+    "message": "Evet"
+  },
+  "no": {
+    "message": "Hayır"
+  },
+  "neverAsk": {
+    "message": "Bir daha sorma"
+  },
+  "feederSearching": {
+    "message": "Feeder ile aranıyor…"
+  },
+  "feederSection": {
+    "message": "Feeder ile akış arama"
+  },
+  "feederSectionHint": {
+    "message": "Bir adres akış değilse ve akış da bildirmiyorsa."
+  },
+  "ask": {
+    "message": "Sor"
+  },
+  "appearance": {
+    "message": "Görünüm"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistem"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "sync": {
+    "message": "Eşitleme"
+  },
+  "syncService": {
+    "message": "Eşitleme hizmeti"
+  },
+  "syncNone": {
+    "message": "Yok"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (özel depo)"
+  },
+  "dropboxKey": {
+    "message": "Dropbox uygulama anahtarı"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Yetkilendirme sayfasını açın"
+  },
+  "dropboxCode": {
+    "message": "2. Kodu buraya yapıştırın"
+  },
+  "dropboxConnect": {
+    "message": "Dropbox’a bağlan"
+  },
+  "githubRepo": {
+    "message": "sahip/depo"
+  },
+  "githubToken": {
+    "message": "Contents erişimli belirteç"
+  },
+  "githubConnect": {
+    "message": "GitHub’a bağlan"
+  },
+  "syncNow": {
+    "message": "Şimdi eşitle"
+  },
+  "disconnect": {
+    "message": "Bağlantıyı kes"
+  },
+  "retryInBrowser": {
+    "message": "Tarayıcıda yeniden dene"
+  },
+  "retryInBrowserTitle": {
+    "message": "Sayfayı geçici bir arka plan sekmesinde yükler ve çıkarmayı yeniden dener"
+  },
+  "favorite": {
+    "message": "Favori"
+  },
+  "addFavorite": {
+    "message": "Favorilere ekle"
+  },
+  "removeFavorite": {
+    "message": "Favorilerden kaldır"
+  },
+  "share": {
+    "message": "Bağlantıyı paylaş"
+  },
+  "openOriginal": {
+    "message": "Özgün sayfayı aç"
+  },
+  "copyLink": {
+    "message": "Bağlantıyı kopyala"
+  },
+  "shareSystem": {
+    "message": "Paylaş…"
+  },
+  "email": {
+    "message": "E-posta"
+  },
+  "addTagPlaceholder": {
+    "message": "Etiket ekle…"
+  },
+  "addTagLabel": {
+    "message": "Virgülle ayırarak etiket ekleyin"
+  },
+  "usedTags": {
+    "message": "Daha önce kullanılan etiketler"
+  },
+  "note": {
+    "message": "Not"
+  },
+  "notePlaceholder": {
+    "message": "Not yazın: otomatik olarak kaydedilir"
+  },
+  "noteLabel": {
+    "message": "Makale notu"
+  },
+  "extracting": {
+    "message": "Makale çıkarılıyor…"
+  },
+  "unreadOf": {
+    "message": "$2 makaleden $1 tanesi okunmadı"
+  },
+  "allFeeds": {
+    "message": "Tüm akışlar"
+  },
+  "updateFailed": {
+    "message": "Güncellenemedi: $1"
+  },
+  "untitled": {
+    "message": "(başlıksız)"
+  },
+  "favoriteOf": {
+    "message": "Favori: $1"
+  },
+  "tagTitle": {
+    "message": "Etiket: $1"
+  },
+  "noMatch": {
+    "message": "Arama ve filtrelerle eşleşen makale yok."
+  },
+  "noFavorites": {
+    "message": "Henüz favori yok. Makalelerin yanındaki yıldızla ekleyin."
+  },
+  "noArticles": {
+    "message": "Makale yok."
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "errNoFeed": {
+    "message": "Bu adreste RSS/Atom akışı bulunamadı"
+  },
+  "errFeederNone": {
+    "message": "Feeder bu site için akış bulamadı"
+  },
+  "errInvalidUrl": {
+    "message": "Geçersiz URL"
+  },
+  "errDuplicate": {
+    "message": "Bu akış zaten eklenmiş"
+  },
+  "errNotFeed": {
+    "message": "Belge bir RSS/Atom akışı değil"
+  },
+  "connectedDropbox": {
+    "message": "Dropbox’a bağlı"
+  },
+  "connectedGithub": {
+    "message": "GitHub’a bağlı: $1"
+  },
+  "syncing": {
+    "message": "Eşitleniyor…"
+  },
+  "lastSync": {
+    "message": "Son eşitleme: $1"
+  },
+  "syncFailed": {
+    "message": "Eşitleme başarısız. $1"
+  },
+  "addTagNamed": {
+    "message": "$1 etiketini ekle"
+  },
+  "removeTagNamed": {
+    "message": "$1 etiketini kaldır"
+  },
+  "linkCopied": {
+    "message": "Bağlantı kopyalandı"
+  },
+  "copyFailed": {
+    "message": "Bağlantı kopyalanamadı"
+  },
+  "shareUnavailable": {
+    "message": "Paylaşım kullanılamıyor: \"Bağlantıyı kopyala\"yı kullanın"
+  },
+  "openVideo": {
+    "message": "Videoyu sekmede aç"
+  },
+  "littleText": {
+    "message": "Sayfadan çok az metin çıkarılabildi."
+  },
+  "hintRetry": {
+    "message": "\"Tarayıcıda yeniden dene\"yi deneyin."
+  },
+  "textIncomplete": {
+    "message": "Metin eksik olabilir."
+  },
+  "feedTextShown": {
+    "message": "Bu, akıştaki metindir."
+  },
+  "noText": {
+    "message": "Kullanılabilir metin yok."
+  },
+  "noLink": {
+    "message": "Bu akış öğesinin bağlantısı yok."
+  },
+  "downloadFailed": {
+    "message": "Sayfa indirilemedi ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Tarayıcıda yüklenemedi ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Önce Dropbox uygulama anahtarını girin"
+  },
+  "openAuthFirst": {
+    "message": "Önce yetkilendirme sayfasını açın"
+  },
+  "disconnected": {
+    "message": "Bağlantı kesildi. Veriler bu cihazda ve kaydedilmiş dosyada kalır."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox yetkilendirmeyi reddetti: uygulama anahtarını ve kodu denetleyin"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox uzun ömürlü erişim belirteci sağlamadı"
+  },
+  "readError": {
+    "message": "$1: okuma hatası"
+  },
+  "readErrorHttp": {
+    "message": "$1: okuma hatası (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: yazma hatası (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: belirteç geçersiz veya süresi dolmuş"
+  },
+  "githubNotFound": {
+    "message": "GitHub: depo bulunamadı veya belirtecin erişimi yok"
+  },
+  "githubError": {
+    "message": "GitHub: hata (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: depo herkese açık. Özel bir depo kullanın"
+  },
+  "githubRepoFormat": {
+    "message": "Depoyu sahip/ad biçiminde yazın"
+  },
+  "syncCorrupt": {
+    "message": "Eşitleme dosyası bozuk: üzerine yazılmayacak"
+  },
+  "syncNewer": {
+    "message": "Dosya daha yeni bir sürüme ait: uzantıyı güncelleyin"
+  },
+  "syncInvalid": {
+    "message": "Eşitleme dosyası geçersiz: üzerine yazılmayacak"
+  },
+  "syncBusy": {
+    "message": "Diğer cihazlar yazıyor: birazdan yeniden deneyin"
+  }
+}

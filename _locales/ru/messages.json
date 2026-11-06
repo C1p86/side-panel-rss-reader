@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "RSS-ридер на боковой панели: извлекает статью с исходной страницы и показывает её в режиме чтения."
+  },
+  "actionTitle": {
+    "message": "Открыть RSS Reader"
+  },
+  "homeTitle": {
+    "message": "Ленты"
+  },
+  "refresh": {
+    "message": "Обновить ленты"
+  },
+  "menu": {
+    "message": "Ленты и настройки"
+  },
+  "searchAll": {
+    "message": "Искать во всех лентах"
+  },
+  "tagsHeading": {
+    "message": "Теги"
+  },
+  "noFeeds": {
+    "message": "Лент пока нет. Добавьте ленту через меню."
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "searchArticles": {
+    "message": "Поиск по заголовкам, тексту, тегам и заметкам"
+  },
+  "filterByTag": {
+    "message": "Фильтр по тегу"
+  },
+  "unreadOnly": {
+    "message": "Непрочитанные"
+  },
+  "favorites": {
+    "message": "Избранное"
+  },
+  "markAllRead": {
+    "message": "Отметить прочитанными"
+  },
+  "markAllReadTitle": {
+    "message": "Отметить видимые статьи прочитанными"
+  },
+  "addPlaceholder": {
+    "message": "URL ленты или сайта"
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "feederQuestion": {
+    "message": "По этому адресу лента не найдена. Попробовать найти её через Feeder?"
+  },
+  "feederHint": {
+    "message": "Адрес без параметров будет отправлен в Feeder."
+  },
+  "yes": {
+    "message": "Да"
+  },
+  "no": {
+    "message": "Нет"
+  },
+  "neverAsk": {
+    "message": "Больше не спрашивать"
+  },
+  "feederSearching": {
+    "message": "Поиск через Feeder…"
+  },
+  "feederSection": {
+    "message": "Поиск лент через Feeder"
+  },
+  "feederSectionHint": {
+    "message": "Когда адрес не является лентой и не указывает её."
+  },
+  "ask": {
+    "message": "Спрашивать"
+  },
+  "appearance": {
+    "message": "Оформление"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeSystem": {
+    "message": "Системная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "sync": {
+    "message": "Синхронизация"
+  },
+  "syncService": {
+    "message": "Служба синхронизации"
+  },
+  "syncNone": {
+    "message": "Нет"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (закрытый репозиторий)"
+  },
+  "dropboxKey": {
+    "message": "Ключ приложения Dropbox"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Откройте страницу авторизации"
+  },
+  "dropboxCode": {
+    "message": "2. Вставьте код сюда"
+  },
+  "dropboxConnect": {
+    "message": "Подключить Dropbox"
+  },
+  "githubRepo": {
+    "message": "владелец/репозиторий"
+  },
+  "githubToken": {
+    "message": "Токен с доступом к Contents"
+  },
+  "githubConnect": {
+    "message": "Подключить GitHub"
+  },
+  "syncNow": {
+    "message": "Синхронизировать"
+  },
+  "disconnect": {
+    "message": "Отключить"
+  },
+  "retryInBrowser": {
+    "message": "Повторить в браузере"
+  },
+  "retryInBrowserTitle": {
+    "message": "Загрузить страницу во временной фоновой вкладке и повторить извлечение"
+  },
+  "favorite": {
+    "message": "Избранное"
+  },
+  "addFavorite": {
+    "message": "Добавить в избранное"
+  },
+  "removeFavorite": {
+    "message": "Убрать из избранного"
+  },
+  "share": {
+    "message": "Поделиться ссылкой"
+  },
+  "openOriginal": {
+    "message": "Открыть оригинал"
+  },
+  "copyLink": {
+    "message": "Копировать ссылку"
+  },
+  "shareSystem": {
+    "message": "Поделиться…"
+  },
+  "email": {
+    "message": "Эл. почта"
+  },
+  "addTagPlaceholder": {
+    "message": "Добавить тег…"
+  },
+  "addTagLabel": {
+    "message": "Добавить теги через запятую"
+  },
+  "usedTags": {
+    "message": "Уже использованные теги"
+  },
+  "note": {
+    "message": "Заметка"
+  },
+  "notePlaceholder": {
+    "message": "Напишите заметку: она сохраняется автоматически"
+  },
+  "noteLabel": {
+    "message": "Заметка к статье"
+  },
+  "extracting": {
+    "message": "Извлечение статьи…"
+  },
+  "unreadOf": {
+    "message": "Непрочитано: $1 из $2"
+  },
+  "allFeeds": {
+    "message": "Все ленты"
+  },
+  "updateFailed": {
+    "message": "Не удалось обновить: $1"
+  },
+  "untitled": {
+    "message": "(без названия)"
+  },
+  "favoriteOf": {
+    "message": "Избранное: $1"
+  },
+  "tagTitle": {
+    "message": "Тег: $1"
+  },
+  "noMatch": {
+    "message": "Нет статей, соответствующих поиску и фильтрам."
+  },
+  "noFavorites": {
+    "message": "В избранном пока пусто. Добавляйте статьи звёздочкой рядом с ними."
+  },
+  "noArticles": {
+    "message": "Статей нет."
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "errNoFeed": {
+    "message": "По этому адресу лента RSS/Atom не найдена"
+  },
+  "errFeederNone": {
+    "message": "Feeder не нашёл ленту для этого сайта"
+  },
+  "errInvalidUrl": {
+    "message": "Недопустимый URL"
+  },
+  "errDuplicate": {
+    "message": "Эта лента уже добавлена"
+  },
+  "errNotFeed": {
+    "message": "Документ не является лентой RSS/Atom"
+  },
+  "connectedDropbox": {
+    "message": "Подключено к Dropbox"
+  },
+  "connectedGithub": {
+    "message": "Подключено к GitHub: $1"
+  },
+  "syncing": {
+    "message": "Синхронизация…"
+  },
+  "lastSync": {
+    "message": "Последняя синхронизация: $1"
+  },
+  "syncFailed": {
+    "message": "Ошибка синхронизации. $1"
+  },
+  "addTagNamed": {
+    "message": "Добавить тег $1"
+  },
+  "removeTagNamed": {
+    "message": "Удалить тег $1"
+  },
+  "linkCopied": {
+    "message": "Ссылка скопирована"
+  },
+  "copyFailed": {
+    "message": "Не удалось скопировать ссылку"
+  },
+  "shareUnavailable": {
+    "message": "Функция недоступна: используйте «Копировать ссылку»"
+  },
+  "openVideo": {
+    "message": "Открыть видео во вкладке"
+  },
+  "littleText": {
+    "message": "Со страницы удалось извлечь мало текста."
+  },
+  "hintRetry": {
+    "message": "Попробуйте «Повторить в браузере»."
+  },
+  "textIncomplete": {
+    "message": "Текст может быть неполным."
+  },
+  "feedTextShown": {
+    "message": "Это текст из ленты."
+  },
+  "noText": {
+    "message": "Текст недоступен."
+  },
+  "noLink": {
+    "message": "У этой записи ленты нет ссылки."
+  },
+  "downloadFailed": {
+    "message": "Не удалось загрузить страницу ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Не удалось загрузить в браузере ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Сначала введите ключ приложения Dropbox"
+  },
+  "openAuthFirst": {
+    "message": "Сначала откройте страницу авторизации"
+  },
+  "disconnected": {
+    "message": "Отключено. Данные остаются на этом устройстве и в уже сохранённом файле."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox отклонил авторизацию: проверьте ключ приложения и код"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox не предоставил долгосрочный токен доступа"
+  },
+  "readError": {
+    "message": "$1: ошибка чтения"
+  },
+  "readErrorHttp": {
+    "message": "$1: ошибка чтения (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: ошибка записи (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: токен недействителен или истёк"
+  },
+  "githubNotFound": {
+    "message": "GitHub: репозиторий не найден или у токена нет доступа"
+  },
+  "githubError": {
+    "message": "GitHub: ошибка (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: репозиторий открытый. Используйте закрытый"
+  },
+  "githubRepoFormat": {
+    "message": "Укажите репозиторий в формате владелец/название"
+  },
+  "syncCorrupt": {
+    "message": "Файл синхронизации повреждён: он не будет перезаписан"
+  },
+  "syncNewer": {
+    "message": "Файл создан более новой версией: обновите расширение"
+  },
+  "syncInvalid": {
+    "message": "Файл синхронизации недействителен: он не будет перезаписан"
+  },
+  "syncBusy": {
+    "message": "Другие устройства записывают данные: повторите попытку чуть позже"
+  }
+}

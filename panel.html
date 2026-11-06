@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>RSS Reader</title>
+  <script src="theme-init.js"></script>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <section id="home-view" class="view">
+    <header class="toolbar">
+      <h2 data-i18n="homeTitle"></h2>
+      <button class="icon refresh" data-i18n-title="refresh" data-i18n-label="refresh">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 6.3M20 5v6h-6"/></svg>
+      </button>
+      <button id="open-manage" class="icon" data-i18n-title="menu" data-i18n-label="menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </header>
+    <div id="home-search-bar" class="searchbar">
+      <input id="home-search" type="search" data-i18n-placeholder="searchAll" data-i18n-label="searchAll" autocomplete="off">
+    </div>
+    <p id="feed-errors" class="notice" hidden></p>
+    <div class="scroll">
+      <ul id="home-feeds"></ul>
+      <section id="home-tags" hidden>
+        <h3 data-i18n="tagsHeading"></h3>
+        <ul id="home-tag-list"></ul>
+      </section>
+      <p id="home-empty" class="empty" data-i18n="noFeeds" hidden></p>
+    </div>
+  </section>
+
+  <section id="list-view" class="view" hidden>
+    <header class="toolbar">
+      <button class="icon back" data-i18n-title="back" data-i18n-label="back">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <h2 id="list-title"></h2>
+      <button class="icon refresh" data-i18n-title="refresh" data-i18n-label="refresh">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 6.3M20 5v6h-6"/></svg>
+      </button>
+    </header>
+    <div class="searchbar">
+      <input id="search" type="search" data-i18n-placeholder="searchArticles" data-i18n-label="searchArticles" autocomplete="off">
+    </div>
+    <div id="tag-filter" role="group" data-i18n-label="filterByTag" hidden></div>
+    <div class="subbar">
+      <label><input id="unread-only" type="checkbox"> <span data-i18n="unreadOnly"></span></label>
+      <label><input id="favorites-only" type="checkbox"> <span data-i18n="favorites"></span></label>
+      <span class="spacer"></span>
+      <button id="mark-all" class="link" data-i18n="markAllRead" data-i18n-title="markAllReadTitle"></button>
+    </div>
+    <ul id="items" class="scroll"></ul>
+    <p id="empty" class="empty" hidden></p>
+  </section>
+
+  <section id="manage-view" class="view" hidden>
+    <header class="toolbar">
+      <button class="icon back" data-i18n-title="back" data-i18n-label="back">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <h2 data-i18n="menu"></h2>
+    </header>
+    <div class="scroll">
+      <form id="add-form">
+        <input id="add-url" type="text" inputmode="url" data-i18n-placeholder="addPlaceholder" data-i18n-label="addPlaceholder" autocomplete="off" required>
+        <button id="add-submit" type="submit" class="primary" data-i18n="add"></button>
+      </form>
+      <div id="feeder-prompt" role="group" aria-labelledby="feeder-question" hidden>
+        <p id="feeder-question" data-i18n="feederQuestion"></p>
+        <p class="hint" data-i18n="feederHint"></p>
+        <div class="prompt-actions">
+          <button id="feeder-yes" type="button" class="primary" data-i18n="yes"></button>
+          <button id="feeder-no" type="button" class="secondary" data-i18n="no"></button>
+          <label><input id="feeder-remember" type="checkbox"> <span data-i18n="neverAsk"></span></label>
+        </div>
+      </div>
+      <p id="add-status" class="hint" role="status" data-i18n="feederSearching" hidden></p>
+      <p id="add-error" class="notice" hidden></p>
+      <ul id="feeds"></ul>
+
+      <section id="feed-lookup">
+        <h3 data-i18n="feederSection"></h3>
+        <p class="hint" data-i18n="feederSectionHint"></p>
+        <div class="segmented" role="radiogroup" data-i18n-label="feederSection">
+          <label><input type="radio" name="feeder-lookup" value="ask"><span data-i18n="ask"></span></label>
+          <label><input type="radio" name="feeder-lookup" value="always"><span data-i18n="yes"></span></label>
+          <label><input type="radio" name="feeder-lookup" value="never"><span data-i18n="no"></span></label>
+        </div>
+      </section>
+
+      <section id="appearance">
+        <h3 data-i18n="appearance"></h3>
+        <div class="segmented" role="radiogroup" data-i18n-label="theme">
+          <label><input type="radio" name="theme" value="system"><span data-i18n="themeSystem"></span></label>
+          <label><input type="radio" name="theme" value="light"><span data-i18n="themeLight"></span></label>
+          <label><input type="radio" name="theme" value="dark"><span data-i18n="themeDark"></span></label>
+        </div>
+      </section>
+
+      <section id="sync">
+        <h3 data-i18n="sync"></h3>
+        <div id="sync-setup">
+          <select id="sync-provider" data-i18n-label="syncService">
+            <option value="" data-i18n="syncNone"></option>
+            <option value="dropbox">Dropbox</option>
+            <option value="github" data-i18n="syncGithubOption"></option>
+          </select>
+          <form id="dropbox-form" hidden>
+            <input id="dropbox-key" type="text" data-i18n-placeholder="dropboxKey" data-i18n-label="dropboxKey" autocomplete="off" required>
+            <button id="dropbox-authorize" type="button" class="link" data-i18n="dropboxOpenAuth"></button>
+            <input id="dropbox-code" type="text" data-i18n-placeholder="dropboxCode" data-i18n-label="dropboxCode" autocomplete="off" required>
+            <button type="submit" class="primary" data-i18n="dropboxConnect"></button>
+          </form>
+          <form id="github-form" hidden>
+            <input id="github-repo" type="text" data-i18n-placeholder="githubRepo" data-i18n-label="githubRepo" autocomplete="off" required>
+            <input id="github-token" type="password" data-i18n-placeholder="githubToken" data-i18n-label="githubToken" autocomplete="off" required>
+            <button type="submit" class="primary" data-i18n="githubConnect"></button>
+          </form>
+        </div>
+        <div id="sync-connected" hidden>
+          <p id="sync-target"></p>
+          <div class="sync-actions">
+            <button id="sync-now" type="button" class="primary" data-i18n="syncNow"></button>
+            <button id="sync-disconnect" type="button" class="link" data-i18n="disconnect"></button>
+          </div>
+        </div>
+        <p id="sync-status" hidden></p>
+      </section>
+    </div>
+  </section>
+
+  <section id="reader-view" class="view" hidden>
+    <header class="toolbar">
+      <button class="icon back" data-i18n-title="back" data-i18n-label="back">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <span class="spacer"></span>
+      <button id="render-tab" class="link" data-i18n="retryInBrowser" data-i18n-title="retryInBrowserTitle"></button>
+      <button id="favorite" class="icon star" aria-pressed="false" data-i18n-label="favorite"></button>
+      <button id="share" class="icon" aria-haspopup="menu" aria-expanded="false" data-i18n-title="share" data-i18n-label="share">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V4M7.5 8.5 12 4l4.500 4.500M5 13v7h14v-7"/></svg>
+      </button>
+      <a id="open-original" class="icon" target="_blank" rel="noopener" data-i18n-title="openOriginal" data-i18n-label="openOriginal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M10 6H5v13h13v-5"/></svg>
+      </a>
+      <div id="share-menu" role="menu" hidden>
+        <button id="share-copy" type="button" role="menuitem" data-i18n="copyLink"></button>
+        <button id="share-system" type="button" role="menuitem" data-i18n="shareSystem" hidden></button>
+        <button id="share-whatsapp" type="button" role="menuitem">WhatsApp</button>
+        <button id="share-telegram" type="button" role="menuitem">Telegram</button>
+        <button id="share-email" type="button" role="menuitem" data-i18n="email"></button>
+      </div>
+    </header>
+    <div id="reader-scroll" class="scroll">
+      <article id="article">
+        <h1 id="article-title" dir="auto"></h1>
+        <p id="article-meta"></p>
+        <div id="annotations">
+          <form id="tag-form">
+            <ul id="article-tags"></ul>
+            <input id="tag-input" type="text" data-i18n-placeholder="addTagPlaceholder" data-i18n-label="addTagLabel" autocomplete="off">
+          </form>
+          <div id="tag-suggestions" role="group" data-i18n-label="usedTags" hidden></div>
+          <details id="note-box">
+            <summary data-i18n="note"></summary>
+            <textarea id="note" rows="4" data-i18n-placeholder="notePlaceholder" data-i18n-label="noteLabel"></textarea>
+          </details>
+        </div>
+        <p id="article-notice" class="notice" hidden></p>
+        <p id="article-loading" class="empty" data-i18n="extracting" hidden></p>
+        <div id="article-content" dir="auto"></div>
+      </article>
+    </div>
+  </section>
+
+  <div id="toast" role="status" hidden></div>
+
+  <script src="vendor/Readability.js"></script>
+  <script src="vendor/purify.min.js"></script>
+  <script type="module" src="panel.js"></script>
+</body>
+</html>

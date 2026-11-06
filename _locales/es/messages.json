@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "Lector RSS en el panel lateral: extrae el artículo de la página original y lo muestra en modo lectura."
+  },
+  "actionTitle": {
+    "message": "Abrir RSS Reader"
+  },
+  "homeTitle": {
+    "message": "Feeds"
+  },
+  "refresh": {
+    "message": "Actualizar feeds"
+  },
+  "menu": {
+    "message": "Feeds y ajustes"
+  },
+  "searchAll": {
+    "message": "Buscar en todos los feeds"
+  },
+  "tagsHeading": {
+    "message": "Etiquetas"
+  },
+  "noFeeds": {
+    "message": "Aún no hay feeds. Añade uno desde el menú."
+  },
+  "back": {
+    "message": "Atrás"
+  },
+  "searchArticles": {
+    "message": "Buscar en títulos, texto, etiquetas y notas"
+  },
+  "filterByTag": {
+    "message": "Filtrar por etiqueta"
+  },
+  "unreadOnly": {
+    "message": "No leídos"
+  },
+  "favorites": {
+    "message": "Favoritos"
+  },
+  "markAllRead": {
+    "message": "Marcar como leídos"
+  },
+  "markAllReadTitle": {
+    "message": "Marcar como leídos los artículos visibles"
+  },
+  "addPlaceholder": {
+    "message": "URL del feed o del sitio"
+  },
+  "add": {
+    "message": "Añadir"
+  },
+  "feederQuestion": {
+    "message": "No se encontró ningún feed en esta dirección. ¿Quieres intentar buscarlo con Feeder?"
+  },
+  "feederHint": {
+    "message": "La dirección, sin parámetros, se enviará a Feeder."
+  },
+  "yes": {
+    "message": "Sí"
+  },
+  "no": {
+    "message": "No"
+  },
+  "neverAsk": {
+    "message": "No volver a preguntar"
+  },
+  "feederSearching": {
+    "message": "Buscando con Feeder…"
+  },
+  "feederSection": {
+    "message": "Búsqueda de feeds con Feeder"
+  },
+  "feederSectionHint": {
+    "message": "Cuando una dirección no es un feed ni declara ninguno."
+  },
+  "ask": {
+    "message": "Preguntar"
+  },
+  "appearance": {
+    "message": "Apariencia"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Oscuro"
+  },
+  "sync": {
+    "message": "Sincronización"
+  },
+  "syncService": {
+    "message": "Servicio de sincronización"
+  },
+  "syncNone": {
+    "message": "Ninguna"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (repositorio privado)"
+  },
+  "dropboxKey": {
+    "message": "Clave de app de Dropbox"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Abre la página de autorización"
+  },
+  "dropboxCode": {
+    "message": "2. Pega aquí el código"
+  },
+  "dropboxConnect": {
+    "message": "Conectar Dropbox"
+  },
+  "githubRepo": {
+    "message": "propietario/repositorio"
+  },
+  "githubToken": {
+    "message": "Token con acceso a Contents"
+  },
+  "githubConnect": {
+    "message": "Conectar GitHub"
+  },
+  "syncNow": {
+    "message": "Sincronizar ahora"
+  },
+  "disconnect": {
+    "message": "Desconectar"
+  },
+  "retryInBrowser": {
+    "message": "Reintentar en el navegador"
+  },
+  "retryInBrowserTitle": {
+    "message": "Carga la página en una pestaña temporal en segundo plano y reintenta la extracción"
+  },
+  "favorite": {
+    "message": "Favorito"
+  },
+  "addFavorite": {
+    "message": "Añadir a favoritos"
+  },
+  "removeFavorite": {
+    "message": "Quitar de favoritos"
+  },
+  "share": {
+    "message": "Compartir el enlace"
+  },
+  "openOriginal": {
+    "message": "Abrir el original"
+  },
+  "copyLink": {
+    "message": "Copiar enlace"
+  },
+  "shareSystem": {
+    "message": "Compartir…"
+  },
+  "email": {
+    "message": "Correo"
+  },
+  "addTagPlaceholder": {
+    "message": "Añadir etiqueta…"
+  },
+  "addTagLabel": {
+    "message": "Añadir etiquetas separadas por comas"
+  },
+  "usedTags": {
+    "message": "Etiquetas ya usadas"
+  },
+  "note": {
+    "message": "Nota"
+  },
+  "notePlaceholder": {
+    "message": "Escribe una nota: se guarda automáticamente"
+  },
+  "noteLabel": {
+    "message": "Nota sobre el artículo"
+  },
+  "extracting": {
+    "message": "Extrayendo el artículo…"
+  },
+  "unreadOf": {
+    "message": "$1 sin leer de $2"
+  },
+  "allFeeds": {
+    "message": "Todos los feeds"
+  },
+  "updateFailed": {
+    "message": "Error al actualizar: $1"
+  },
+  "untitled": {
+    "message": "(sin título)"
+  },
+  "favoriteOf": {
+    "message": "Favorito: $1"
+  },
+  "tagTitle": {
+    "message": "Etiqueta: $1"
+  },
+  "noMatch": {
+    "message": "Ningún artículo coincide con la búsqueda y los filtros."
+  },
+  "noFavorites": {
+    "message": "Aún no hay favoritos. Añádelos con la estrella junto a cada artículo."
+  },
+  "noArticles": {
+    "message": "No hay artículos."
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "errNoFeed": {
+    "message": "No se encontró ningún feed RSS/Atom en esta dirección"
+  },
+  "errFeederNone": {
+    "message": "Feeder no encontró ningún feed para este sitio"
+  },
+  "errInvalidUrl": {
+    "message": "URL no válida"
+  },
+  "errDuplicate": {
+    "message": "Este feed ya está añadido"
+  },
+  "errNotFeed": {
+    "message": "El documento no es un feed RSS/Atom"
+  },
+  "connectedDropbox": {
+    "message": "Conectado a Dropbox"
+  },
+  "connectedGithub": {
+    "message": "Conectado a GitHub: $1"
+  },
+  "syncing": {
+    "message": "Sincronizando…"
+  },
+  "lastSync": {
+    "message": "Última sincronización: $1"
+  },
+  "syncFailed": {
+    "message": "Error de sincronización. $1"
+  },
+  "addTagNamed": {
+    "message": "Añadir la etiqueta $1"
+  },
+  "removeTagNamed": {
+    "message": "Quitar la etiqueta $1"
+  },
+  "linkCopied": {
+    "message": "Enlace copiado"
+  },
+  "copyFailed": {
+    "message": "No se pudo copiar el enlace"
+  },
+  "shareUnavailable": {
+    "message": "Compartir no está disponible: usa «Copiar enlace»"
+  },
+  "openVideo": {
+    "message": "Abrir el vídeo en una pestaña"
+  },
+  "littleText": {
+    "message": "Se pudo extraer poco texto de la página."
+  },
+  "hintRetry": {
+    "message": "Prueba «Reintentar en el navegador»."
+  },
+  "textIncomplete": {
+    "message": "El texto puede estar incompleto."
+  },
+  "feedTextShown": {
+    "message": "Este es el texto del feed."
+  },
+  "noText": {
+    "message": "No hay texto disponible."
+  },
+  "noLink": {
+    "message": "Esta entrada del feed no tiene enlace."
+  },
+  "downloadFailed": {
+    "message": "No se pudo descargar la página ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Error al cargar en el navegador ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Escribe primero la clave de app de Dropbox"
+  },
+  "openAuthFirst": {
+    "message": "Abre primero la página de autorización"
+  },
+  "disconnected": {
+    "message": "Desconectado. Los datos permanecen en este dispositivo y en el archivo ya guardado."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox rechazó la autorización: revisa la clave de app y el código"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox no proporcionó un token de acceso duradero"
+  },
+  "readError": {
+    "message": "$1: error de lectura"
+  },
+  "readErrorHttp": {
+    "message": "$1: error de lectura (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: error de escritura (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: token no válido o caducado"
+  },
+  "githubNotFound": {
+    "message": "GitHub: repositorio no encontrado o token sin acceso"
+  },
+  "githubError": {
+    "message": "GitHub: error (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: el repositorio es público. Usa uno privado"
+  },
+  "githubRepoFormat": {
+    "message": "Escribe el repositorio como propietario/nombre"
+  },
+  "syncCorrupt": {
+    "message": "El archivo de sincronización está dañado: no se sobrescribirá"
+  },
+  "syncNewer": {
+    "message": "El archivo es de una versión más reciente: actualiza la extensión"
+  },
+  "syncInvalid": {
+    "message": "El archivo de sincronización no es válido: no se sobrescribirá"
+  },
+  "syncBusy": {
+    "message": "Otros dispositivos están escribiendo: inténtalo de nuevo en breve"
+  }
+}

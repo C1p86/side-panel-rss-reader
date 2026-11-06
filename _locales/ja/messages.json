@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "サイドパネルの RSS リーダー：元のページから記事を抽出し、リーダーモードで表示します。"
+  },
+  "actionTitle": {
+    "message": "RSS Reader を開く"
+  },
+  "homeTitle": {
+    "message": "フィード"
+  },
+  "refresh": {
+    "message": "フィードを更新"
+  },
+  "menu": {
+    "message": "フィードと設定"
+  },
+  "searchAll": {
+    "message": "すべてのフィードを検索"
+  },
+  "tagsHeading": {
+    "message": "タグ"
+  },
+  "noFeeds": {
+    "message": "フィードはまだありません。メニューから追加してください。"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "searchArticles": {
+    "message": "タイトル、本文、タグ、メモを検索"
+  },
+  "filterByTag": {
+    "message": "タグで絞り込む"
+  },
+  "unreadOnly": {
+    "message": "未読"
+  },
+  "favorites": {
+    "message": "お気に入り"
+  },
+  "markAllRead": {
+    "message": "既読にする"
+  },
+  "markAllReadTitle": {
+    "message": "表示中の記事を既読にする"
+  },
+  "addPlaceholder": {
+    "message": "フィードまたはサイトの URL"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "feederQuestion": {
+    "message": "このアドレスにフィードは見つかりませんでした。Feeder で検索しますか？"
+  },
+  "feederHint": {
+    "message": "アドレスはパラメーターを除いて Feeder に送信されます。"
+  },
+  "yes": {
+    "message": "はい"
+  },
+  "no": {
+    "message": "いいえ"
+  },
+  "neverAsk": {
+    "message": "今後確認しない"
+  },
+  "feederSearching": {
+    "message": "Feeder で検索中…"
+  },
+  "feederSection": {
+    "message": "Feeder によるフィード検索"
+  },
+  "feederSectionHint": {
+    "message": "アドレスがフィードではなく、フィードの宣言もない場合。"
+  },
+  "ask": {
+    "message": "確認する"
+  },
+  "appearance": {
+    "message": "外観"
+  },
+  "theme": {
+    "message": "テーマ"
+  },
+  "themeSystem": {
+    "message": "システム"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "sync": {
+    "message": "同期"
+  },
+  "syncService": {
+    "message": "同期サービス"
+  },
+  "syncNone": {
+    "message": "なし"
+  },
+  "syncGithubOption": {
+    "message": "GitHub（プライベートリポジトリ）"
+  },
+  "dropboxKey": {
+    "message": "Dropbox のアプリキー"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. 認証ページを開く"
+  },
+  "dropboxCode": {
+    "message": "2. ここにコードを貼り付け"
+  },
+  "dropboxConnect": {
+    "message": "Dropbox に接続"
+  },
+  "githubRepo": {
+    "message": "オーナー/リポジトリ"
+  },
+  "githubToken": {
+    "message": "Contents へのアクセス権を持つトークン"
+  },
+  "githubConnect": {
+    "message": "GitHub に接続"
+  },
+  "syncNow": {
+    "message": "今すぐ同期"
+  },
+  "disconnect": {
+    "message": "接続を解除"
+  },
+  "retryInBrowser": {
+    "message": "ブラウザで再試行"
+  },
+  "retryInBrowserTitle": {
+    "message": "一時的なバックグラウンドタブでページを読み込み、抽出を再試行します"
+  },
+  "favorite": {
+    "message": "お気に入り"
+  },
+  "addFavorite": {
+    "message": "お気に入りに追加"
+  },
+  "removeFavorite": {
+    "message": "お気に入りから削除"
+  },
+  "share": {
+    "message": "リンクを共有"
+  },
+  "openOriginal": {
+    "message": "元のページを開く"
+  },
+  "copyLink": {
+    "message": "リンクをコピー"
+  },
+  "shareSystem": {
+    "message": "共有…"
+  },
+  "email": {
+    "message": "メール"
+  },
+  "addTagPlaceholder": {
+    "message": "タグを追加…"
+  },
+  "addTagLabel": {
+    "message": "タグを追加（カンマ区切り）"
+  },
+  "usedTags": {
+    "message": "使用済みのタグ"
+  },
+  "note": {
+    "message": "メモ"
+  },
+  "notePlaceholder": {
+    "message": "メモを入力（自動保存されます）"
+  },
+  "noteLabel": {
+    "message": "記事のメモ"
+  },
+  "extracting": {
+    "message": "記事を抽出中…"
+  },
+  "unreadOf": {
+    "message": "$2 件中 $1 件が未読"
+  },
+  "allFeeds": {
+    "message": "すべてのフィード"
+  },
+  "updateFailed": {
+    "message": "更新に失敗しました: $1"
+  },
+  "untitled": {
+    "message": "（タイトルなし）"
+  },
+  "favoriteOf": {
+    "message": "お気に入り: $1"
+  },
+  "tagTitle": {
+    "message": "タグ: $1"
+  },
+  "noMatch": {
+    "message": "検索とフィルターに一致する記事はありません。"
+  },
+  "noFavorites": {
+    "message": "お気に入りはまだありません。記事の横の星で追加できます。"
+  },
+  "noArticles": {
+    "message": "記事はありません。"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "errNoFeed": {
+    "message": "このアドレスに RSS/Atom フィードは見つかりませんでした"
+  },
+  "errFeederNone": {
+    "message": "Feeder はこのサイトのフィードを見つけられませんでした"
+  },
+  "errInvalidUrl": {
+    "message": "URL が無効です"
+  },
+  "errDuplicate": {
+    "message": "このフィードは追加済みです"
+  },
+  "errNotFeed": {
+    "message": "このドキュメントは RSS/Atom フィードではありません"
+  },
+  "connectedDropbox": {
+    "message": "Dropbox に接続済み"
+  },
+  "connectedGithub": {
+    "message": "GitHub に接続済み: $1"
+  },
+  "syncing": {
+    "message": "同期中…"
+  },
+  "lastSync": {
+    "message": "最終同期: $1"
+  },
+  "syncFailed": {
+    "message": "同期に失敗しました。$1"
+  },
+  "addTagNamed": {
+    "message": "タグ $1 を追加"
+  },
+  "removeTagNamed": {
+    "message": "タグ $1 を削除"
+  },
+  "linkCopied": {
+    "message": "リンクをコピーしました"
+  },
+  "copyFailed": {
+    "message": "リンクをコピーできませんでした"
+  },
+  "shareUnavailable": {
+    "message": "共有できません。「リンクをコピー」を使ってください"
+  },
+  "openVideo": {
+    "message": "動画をタブで開く"
+  },
+  "littleText": {
+    "message": "ページから抽出できたテキストはわずかです。"
+  },
+  "hintRetry": {
+    "message": "「ブラウザで再試行」をお試しください。"
+  },
+  "textIncomplete": {
+    "message": "テキストが不完全な可能性があります。"
+  },
+  "feedTextShown": {
+    "message": "これはフィードのテキストです。"
+  },
+  "noText": {
+    "message": "利用できるテキストはありません。"
+  },
+  "noLink": {
+    "message": "このフィード項目にはリンクがありません。"
+  },
+  "downloadFailed": {
+    "message": "ページをダウンロードできませんでした（$1）。"
+  },
+  "browserLoadFailed": {
+    "message": "ブラウザでの読み込みに失敗しました（$1）。"
+  },
+  "needDropboxKey": {
+    "message": "先に Dropbox のアプリキーを入力してください"
+  },
+  "openAuthFirst": {
+    "message": "先に認証ページを開いてください"
+  },
+  "disconnected": {
+    "message": "接続を解除しました。データはこのデバイスと保存済みのファイルに残ります。"
+  },
+  "dropboxRefused": {
+    "message": "Dropbox が認証を拒否しました。アプリキーとコードを確認してください"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox から長期アクセストークンを取得できませんでした"
+  },
+  "readError": {
+    "message": "$1: 読み取りエラー"
+  },
+  "readErrorHttp": {
+    "message": "$1: 読み取りエラー（HTTP $2）"
+  },
+  "writeErrorHttp": {
+    "message": "$1: 書き込みエラー（HTTP $2）"
+  },
+  "githubBadToken": {
+    "message": "GitHub: トークンが無効か期限切れです"
+  },
+  "githubNotFound": {
+    "message": "GitHub: リポジトリが見つからないか、トークンにアクセス権がありません"
+  },
+  "githubError": {
+    "message": "GitHub: エラー（HTTP $1）"
+  },
+  "githubPublic": {
+    "message": "GitHub: リポジトリが公開されています。プライベートリポジトリを使ってください"
+  },
+  "githubRepoFormat": {
+    "message": "リポジトリは「オーナー/名前」の形式で入力してください"
+  },
+  "syncCorrupt": {
+    "message": "同期ファイルが破損しています。上書きはしません"
+  },
+  "syncNewer": {
+    "message": "ファイルは新しいバージョンのものです。拡張機能を更新してください"
+  },
+  "syncInvalid": {
+    "message": "同期ファイルが無効です。上書きはしません"
+  },
+  "syncBusy": {
+    "message": "他のデバイスが書き込み中です。しばらくしてからお試しください"
+  }
+}

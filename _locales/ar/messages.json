@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "قارئ RSS في اللوحة الجانبية: يستخرج المقال من الصفحة الأصلية ويعرضه في وضع القراءة."
+  },
+  "actionTitle": {
+    "message": "فتح RSS Reader"
+  },
+  "homeTitle": {
+    "message": "الخلاصات"
+  },
+  "refresh": {
+    "message": "تحديث الخلاصات"
+  },
+  "menu": {
+    "message": "الخلاصات والإعدادات"
+  },
+  "searchAll": {
+    "message": "البحث في كل الخلاصات"
+  },
+  "tagsHeading": {
+    "message": "الوسوم"
+  },
+  "noFeeds": {
+    "message": "لا توجد خلاصات بعد. أضف واحدة من القائمة."
+  },
+  "back": {
+    "message": "رجوع"
+  },
+  "searchArticles": {
+    "message": "البحث في العناوين والنص والوسوم والملاحظات"
+  },
+  "filterByTag": {
+    "message": "التصفية حسب الوسم"
+  },
+  "unreadOnly": {
+    "message": "غير المقروءة"
+  },
+  "favorites": {
+    "message": "المفضلة"
+  },
+  "markAllRead": {
+    "message": "تعليم كمقروءة"
+  },
+  "markAllReadTitle": {
+    "message": "تعليم المقالات الظاهرة كمقروءة"
+  },
+  "addPlaceholder": {
+    "message": "عنوان URL للخلاصة أو الموقع"
+  },
+  "add": {
+    "message": "إضافة"
+  },
+  "feederQuestion": {
+    "message": "لم يُعثر على خلاصة في هذا العنوان. هل تريد محاولة البحث عنها عبر Feeder؟"
+  },
+  "feederHint": {
+    "message": "سيُرسل العنوان إلى Feeder بدون معلمات."
+  },
+  "yes": {
+    "message": "نعم"
+  },
+  "no": {
+    "message": "لا"
+  },
+  "neverAsk": {
+    "message": "عدم السؤال مرة أخرى"
+  },
+  "feederSearching": {
+    "message": "جارٍ البحث عبر Feeder…"
+  },
+  "feederSection": {
+    "message": "البحث عن الخلاصات عبر Feeder"
+  },
+  "feederSectionHint": {
+    "message": "عندما لا يكون العنوان خلاصة ولا يعلن عن واحدة."
+  },
+  "ask": {
+    "message": "السؤال"
+  },
+  "appearance": {
+    "message": "المظهر"
+  },
+  "theme": {
+    "message": "السمة"
+  },
+  "themeSystem": {
+    "message": "النظام"
+  },
+  "themeLight": {
+    "message": "فاتح"
+  },
+  "themeDark": {
+    "message": "داكن"
+  },
+  "sync": {
+    "message": "المزامنة"
+  },
+  "syncService": {
+    "message": "خدمة المزامنة"
+  },
+  "syncNone": {
+    "message": "بدون"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (مستودع خاص)"
+  },
+  "dropboxKey": {
+    "message": "مفتاح تطبيق Dropbox"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. افتح صفحة التفويض"
+  },
+  "dropboxCode": {
+    "message": "2. الصق الرمز هنا"
+  },
+  "dropboxConnect": {
+    "message": "ربط Dropbox"
+  },
+  "githubRepo": {
+    "message": "المالك/المستودع"
+  },
+  "githubToken": {
+    "message": "رمز مميز مع صلاحية Contents"
+  },
+  "githubConnect": {
+    "message": "ربط GitHub"
+  },
+  "syncNow": {
+    "message": "المزامنة الآن"
+  },
+  "disconnect": {
+    "message": "قطع الاتصال"
+  },
+  "retryInBrowser": {
+    "message": "إعادة المحاولة في المتصفح"
+  },
+  "retryInBrowserTitle": {
+    "message": "تحميل الصفحة في علامة تبويب مؤقتة في الخلفية وإعادة محاولة الاستخراج"
+  },
+  "favorite": {
+    "message": "مفضلة"
+  },
+  "addFavorite": {
+    "message": "إضافة إلى المفضلة"
+  },
+  "removeFavorite": {
+    "message": "إزالة من المفضلة"
+  },
+  "share": {
+    "message": "مشاركة الرابط"
+  },
+  "openOriginal": {
+    "message": "فتح الأصل"
+  },
+  "copyLink": {
+    "message": "نسخ الرابط"
+  },
+  "shareSystem": {
+    "message": "مشاركة…"
+  },
+  "email": {
+    "message": "البريد الإلكتروني"
+  },
+  "addTagPlaceholder": {
+    "message": "إضافة وسم…"
+  },
+  "addTagLabel": {
+    "message": "إضافة وسوم مفصولة بفواصل"
+  },
+  "usedTags": {
+    "message": "الوسوم المستخدمة"
+  },
+  "note": {
+    "message": "ملاحظة"
+  },
+  "notePlaceholder": {
+    "message": "اكتب ملاحظة: تُحفظ تلقائيًا"
+  },
+  "noteLabel": {
+    "message": "ملاحظة على المقال"
+  },
+  "extracting": {
+    "message": "جارٍ استخراج المقال…"
+  },
+  "unreadOf": {
+    "message": "$1 غير مقروءة من $2"
+  },
+  "allFeeds": {
+    "message": "كل الخلاصات"
+  },
+  "updateFailed": {
+    "message": "فشل التحديث: $1"
+  },
+  "untitled": {
+    "message": "(بدون عنوان)"
+  },
+  "favoriteOf": {
+    "message": "مفضلة: $1"
+  },
+  "tagTitle": {
+    "message": "الوسم: $1"
+  },
+  "noMatch": {
+    "message": "لا توجد مقالات تطابق البحث وعوامل التصفية."
+  },
+  "noFavorites": {
+    "message": "لا توجد مفضلة بعد. أضفها بالنجمة بجانب المقالات."
+  },
+  "noArticles": {
+    "message": "لا توجد مقالات."
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "errNoFeed": {
+    "message": "لم يُعثر على خلاصة RSS/Atom في هذا العنوان"
+  },
+  "errFeederNone": {
+    "message": "لم يعثر Feeder على خلاصة لهذا الموقع"
+  },
+  "errInvalidUrl": {
+    "message": "عنوان URL غير صالح"
+  },
+  "errDuplicate": {
+    "message": "أُضيفت هذه الخلاصة بالفعل"
+  },
+  "errNotFeed": {
+    "message": "المستند ليس خلاصة RSS/Atom"
+  },
+  "connectedDropbox": {
+    "message": "متصل بـ Dropbox"
+  },
+  "connectedGithub": {
+    "message": "متصل بـ GitHub: $1"
+  },
+  "syncing": {
+    "message": "جارٍ المزامنة…"
+  },
+  "lastSync": {
+    "message": "آخر مزامنة: $1"
+  },
+  "syncFailed": {
+    "message": "فشلت المزامنة. $1"
+  },
+  "addTagNamed": {
+    "message": "إضافة الوسم $1"
+  },
+  "removeTagNamed": {
+    "message": "إزالة الوسم $1"
+  },
+  "linkCopied": {
+    "message": "تم نسخ الرابط"
+  },
+  "copyFailed": {
+    "message": "تعذر نسخ الرابط"
+  },
+  "shareUnavailable": {
+    "message": "المشاركة غير متاحة: استخدم «نسخ الرابط»"
+  },
+  "openVideo": {
+    "message": "فتح الفيديو في علامة تبويب"
+  },
+  "littleText": {
+    "message": "تعذر استخراج سوى القليل من النص من الصفحة."
+  },
+  "hintRetry": {
+    "message": "جرّب «إعادة المحاولة في المتصفح»."
+  },
+  "textIncomplete": {
+    "message": "قد يكون النص غير مكتمل."
+  },
+  "feedTextShown": {
+    "message": "هذا هو نص الخلاصة."
+  },
+  "noText": {
+    "message": "لا يتوفر نص."
+  },
+  "noLink": {
+    "message": "لا يحتوي عنصر الخلاصة هذا على رابط."
+  },
+  "downloadFailed": {
+    "message": "تعذر تنزيل الصفحة ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "فشل التحميل في المتصفح ($1)."
+  },
+  "needDropboxKey": {
+    "message": "أدخل مفتاح تطبيق Dropbox أولاً"
+  },
+  "openAuthFirst": {
+    "message": "افتح صفحة التفويض أولاً"
+  },
+  "disconnected": {
+    "message": "تم قطع الاتصال. تبقى البيانات على هذا الجهاز وفي الملف المحفوظ."
+  },
+  "dropboxRefused": {
+    "message": "رفض Dropbox التفويض: تحقق من مفتاح التطبيق والرمز"
+  },
+  "dropboxNoToken": {
+    "message": "لم يوفر Dropbox رمز وصول طويل الأمد"
+  },
+  "readError": {
+    "message": "$1: خطأ في القراءة"
+  },
+  "readErrorHttp": {
+    "message": "$1: خطأ في القراءة (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: خطأ في الكتابة (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: الرمز المميز غير صالح أو منتهٍ"
+  },
+  "githubNotFound": {
+    "message": "GitHub: المستودع غير موجود أو الرمز المميز بلا صلاحية"
+  },
+  "githubError": {
+    "message": "GitHub: خطأ (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: المستودع عام. استخدم مستودعًا خاصًا"
+  },
+  "githubRepoFormat": {
+    "message": "اكتب المستودع بالصيغة المالك/الاسم"
+  },
+  "syncCorrupt": {
+    "message": "ملف المزامنة تالف: لن تتم الكتابة فوقه"
+  },
+  "syncNewer": {
+    "message": "الملف من إصدار أحدث: حدّث الإضافة"
+  },
+  "syncInvalid": {
+    "message": "ملف المزامنة غير صالح: لن تتم الكتابة فوقه"
+  },
+  "syncBusy": {
+    "message": "تكتب أجهزة أخرى حاليًا: أعد المحاولة بعد قليل"
+  }
+}

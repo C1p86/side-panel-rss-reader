@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "साइड पैनल में RSS रीडर: मूल पेज से लेख निकालकर उसे रीडिंग मोड में दिखाता है।"
+  },
+  "actionTitle": {
+    "message": "RSS Reader खोलें"
+  },
+  "homeTitle": {
+    "message": "फ़ीड"
+  },
+  "refresh": {
+    "message": "फ़ीड रीफ़्रेश करें"
+  },
+  "menu": {
+    "message": "फ़ीड और सेटिंग"
+  },
+  "searchAll": {
+    "message": "सभी फ़ीड में खोजें"
+  },
+  "tagsHeading": {
+    "message": "टैग"
+  },
+  "noFeeds": {
+    "message": "अभी कोई फ़ीड नहीं है। मेनू से एक जोड़ें।"
+  },
+  "back": {
+    "message": "वापस"
+  },
+  "searchArticles": {
+    "message": "शीर्षक, टेक्स्ट, टैग और नोट में खोजें"
+  },
+  "filterByTag": {
+    "message": "टैग से फ़िल्टर करें"
+  },
+  "unreadOnly": {
+    "message": "अपठित"
+  },
+  "favorites": {
+    "message": "पसंदीदा"
+  },
+  "markAllRead": {
+    "message": "पढ़ा हुआ चिह्नित करें"
+  },
+  "markAllReadTitle": {
+    "message": "दिखाई दे रहे लेखों को पढ़ा हुआ चिह्नित करें"
+  },
+  "addPlaceholder": {
+    "message": "फ़ीड या साइट का URL"
+  },
+  "add": {
+    "message": "जोड़ें"
+  },
+  "feederQuestion": {
+    "message": "इस पते पर कोई फ़ीड नहीं मिला। क्या आप Feeder से इसे खोजना चाहते हैं?"
+  },
+  "feederHint": {
+    "message": "पता, बिना पैरामीटर के, Feeder को भेजा जाएगा।"
+  },
+  "yes": {
+    "message": "हाँ"
+  },
+  "no": {
+    "message": "नहीं"
+  },
+  "neverAsk": {
+    "message": "दोबारा न पूछें"
+  },
+  "feederSearching": {
+    "message": "Feeder से खोजा जा रहा है…"
+  },
+  "feederSection": {
+    "message": "Feeder से फ़ीड खोजें"
+  },
+  "feederSectionHint": {
+    "message": "जब पता फ़ीड न हो और कोई फ़ीड घोषित न करता हो।"
+  },
+  "ask": {
+    "message": "पूछें"
+  },
+  "appearance": {
+    "message": "दिखावट"
+  },
+  "theme": {
+    "message": "थीम"
+  },
+  "themeSystem": {
+    "message": "सिस्टम"
+  },
+  "themeLight": {
+    "message": "हल्की"
+  },
+  "themeDark": {
+    "message": "गहरी"
+  },
+  "sync": {
+    "message": "सिंक"
+  },
+  "syncService": {
+    "message": "सिंक सेवा"
+  },
+  "syncNone": {
+    "message": "कोई नहीं"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (निजी रिपॉज़िटरी)"
+  },
+  "dropboxKey": {
+    "message": "Dropbox ऐप कुंजी"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. प्राधिकरण पेज खोलें"
+  },
+  "dropboxCode": {
+    "message": "2. कोड यहाँ पेस्ट करें"
+  },
+  "dropboxConnect": {
+    "message": "Dropbox कनेक्ट करें"
+  },
+  "githubRepo": {
+    "message": "मालिक/रिपॉज़िटरी"
+  },
+  "githubToken": {
+    "message": "Contents एक्सेस वाला टोकन"
+  },
+  "githubConnect": {
+    "message": "GitHub कनेक्ट करें"
+  },
+  "syncNow": {
+    "message": "अभी सिंक करें"
+  },
+  "disconnect": {
+    "message": "डिस्कनेक्ट करें"
+  },
+  "retryInBrowser": {
+    "message": "ब्राउज़र में फिर आज़माएँ"
+  },
+  "retryInBrowserTitle": {
+    "message": "पेज को अस्थायी बैकग्राउंड टैब में लोड करके फिर से निकालने की कोशिश करें"
+  },
+  "favorite": {
+    "message": "पसंदीदा"
+  },
+  "addFavorite": {
+    "message": "पसंदीदा में जोड़ें"
+  },
+  "removeFavorite": {
+    "message": "पसंदीदा से हटाएँ"
+  },
+  "share": {
+    "message": "लिंक साझा करें"
+  },
+  "openOriginal": {
+    "message": "मूल पेज खोलें"
+  },
+  "copyLink": {
+    "message": "लिंक कॉपी करें"
+  },
+  "shareSystem": {
+    "message": "साझा करें…"
+  },
+  "email": {
+    "message": "ईमेल"
+  },
+  "addTagPlaceholder": {
+    "message": "टैग जोड़ें…"
+  },
+  "addTagLabel": {
+    "message": "टैग जोड़ें, अल्पविराम से अलग करके"
+  },
+  "usedTags": {
+    "message": "पहले से उपयोग किए गए टैग"
+  },
+  "note": {
+    "message": "नोट"
+  },
+  "notePlaceholder": {
+    "message": "नोट लिखें: यह अपने आप सहेजा जाता है"
+  },
+  "noteLabel": {
+    "message": "लेख पर नोट"
+  },
+  "extracting": {
+    "message": "लेख निकाला जा रहा है…"
+  },
+  "unreadOf": {
+    "message": "$2 में से $1 अपठित"
+  },
+  "allFeeds": {
+    "message": "सभी फ़ीड"
+  },
+  "updateFailed": {
+    "message": "अपडेट नहीं हुआ: $1"
+  },
+  "untitled": {
+    "message": "(बिना शीर्षक)"
+  },
+  "favoriteOf": {
+    "message": "पसंदीदा: $1"
+  },
+  "tagTitle": {
+    "message": "टैग: $1"
+  },
+  "noMatch": {
+    "message": "खोज और फ़िल्टर से कोई लेख मेल नहीं खाता।"
+  },
+  "noFavorites": {
+    "message": "अभी कोई पसंदीदा नहीं है। लेखों के पास बने तारे से जोड़ें।"
+  },
+  "noArticles": {
+    "message": "कोई लेख नहीं।"
+  },
+  "remove": {
+    "message": "हटाएँ"
+  },
+  "errNoFeed": {
+    "message": "इस पते पर कोई RSS/Atom फ़ीड नहीं मिला"
+  },
+  "errFeederNone": {
+    "message": "Feeder को इस साइट का कोई फ़ीड नहीं मिला"
+  },
+  "errInvalidUrl": {
+    "message": "अमान्य URL"
+  },
+  "errDuplicate": {
+    "message": "यह फ़ीड पहले से जोड़ा गया है"
+  },
+  "errNotFeed": {
+    "message": "यह दस्तावेज़ RSS/Atom फ़ीड नहीं है"
+  },
+  "connectedDropbox": {
+    "message": "Dropbox से कनेक्ट है"
+  },
+  "connectedGithub": {
+    "message": "GitHub से कनेक्ट है: $1"
+  },
+  "syncing": {
+    "message": "सिंक हो रहा है…"
+  },
+  "lastSync": {
+    "message": "पिछला सिंक: $1"
+  },
+  "syncFailed": {
+    "message": "सिंक नहीं हुआ। $1"
+  },
+  "addTagNamed": {
+    "message": "टैग $1 जोड़ें"
+  },
+  "removeTagNamed": {
+    "message": "टैग $1 हटाएँ"
+  },
+  "linkCopied": {
+    "message": "लिंक कॉपी हो गया"
+  },
+  "copyFailed": {
+    "message": "लिंक कॉपी नहीं हो सका"
+  },
+  "shareUnavailable": {
+    "message": "साझा करना उपलब्ध नहीं है: \"लिंक कॉपी करें\" का उपयोग करें"
+  },
+  "openVideo": {
+    "message": "वीडियो को टैब में खोलें"
+  },
+  "littleText": {
+    "message": "पेज से बहुत कम टेक्स्ट निकल पाया।"
+  },
+  "hintRetry": {
+    "message": "\"ब्राउज़र में फिर आज़माएँ\" का उपयोग करें।"
+  },
+  "textIncomplete": {
+    "message": "टेक्स्ट अधूरा हो सकता है।"
+  },
+  "feedTextShown": {
+    "message": "यह फ़ीड का टेक्स्ट है।"
+  },
+  "noText": {
+    "message": "कोई टेक्स्ट उपलब्ध नहीं है।"
+  },
+  "noLink": {
+    "message": "इस फ़ीड प्रविष्टि में कोई लिंक नहीं है।"
+  },
+  "downloadFailed": {
+    "message": "पेज डाउनलोड नहीं हो सका ($1)।"
+  },
+  "browserLoadFailed": {
+    "message": "ब्राउज़र में लोड नहीं हो सका ($1)।"
+  },
+  "needDropboxKey": {
+    "message": "पहले Dropbox ऐप कुंजी दर्ज करें"
+  },
+  "openAuthFirst": {
+    "message": "पहले प्राधिकरण पेज खोलें"
+  },
+  "disconnected": {
+    "message": "डिस्कनेक्ट हो गया। डेटा इस डिवाइस और पहले से सहेजी गई फ़ाइल में रहेगा।"
+  },
+  "dropboxRefused": {
+    "message": "Dropbox ने प्राधिकरण अस्वीकार किया: ऐप कुंजी और कोड जाँचें"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox ने लंबे समय का एक्सेस टोकन नहीं दिया"
+  },
+  "readError": {
+    "message": "$1: पढ़ने में त्रुटि"
+  },
+  "readErrorHttp": {
+    "message": "$1: पढ़ने में त्रुटि (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: लिखने में त्रुटि (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: टोकन अमान्य है या उसकी अवधि समाप्त हो गई है"
+  },
+  "githubNotFound": {
+    "message": "GitHub: रिपॉज़िटरी नहीं मिली या टोकन के पास एक्सेस नहीं है"
+  },
+  "githubError": {
+    "message": "GitHub: त्रुटि (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: रिपॉज़िटरी सार्वजनिक है। निजी रिपॉज़िटरी का उपयोग करें"
+  },
+  "githubRepoFormat": {
+    "message": "रिपॉज़िटरी को मालिक/नाम के रूप में लिखें"
+  },
+  "syncCorrupt": {
+    "message": "सिंक फ़ाइल खराब है: इसे अधिलेखित नहीं किया जाएगा"
+  },
+  "syncNewer": {
+    "message": "फ़ाइल नए संस्करण की है: एक्सटेंशन अपडेट करें"
+  },
+  "syncInvalid": {
+    "message": "सिंक फ़ाइल अमान्य है: इसे अधिलेखित नहीं किया जाएगा"
+  },
+  "syncBusy": {
+    "message": "अन्य डिवाइस लिख रहे हैं: थोड़ी देर बाद फिर कोशिश करें"
+  }
+}

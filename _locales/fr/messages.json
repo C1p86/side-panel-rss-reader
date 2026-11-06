@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "Lecteur RSS dans le panneau latéral : extrait l'article de la page d'origine et l'affiche en mode lecture."
+  },
+  "actionTitle": {
+    "message": "Ouvrir RSS Reader"
+  },
+  "homeTitle": {
+    "message": "Flux"
+  },
+  "refresh": {
+    "message": "Actualiser les flux"
+  },
+  "menu": {
+    "message": "Flux et paramètres"
+  },
+  "searchAll": {
+    "message": "Rechercher dans tous les flux"
+  },
+  "tagsHeading": {
+    "message": "Tags"
+  },
+  "noFeeds": {
+    "message": "Aucun flux. Ajoutez-en un depuis le menu."
+  },
+  "back": {
+    "message": "Retour"
+  },
+  "searchArticles": {
+    "message": "Rechercher dans les titres, le texte, les tags et les notes"
+  },
+  "filterByTag": {
+    "message": "Filtrer par tag"
+  },
+  "unreadOnly": {
+    "message": "Non lus"
+  },
+  "favorites": {
+    "message": "Favoris"
+  },
+  "markAllRead": {
+    "message": "Marquer comme lus"
+  },
+  "markAllReadTitle": {
+    "message": "Marquer les articles visibles comme lus"
+  },
+  "addPlaceholder": {
+    "message": "URL du flux ou du site"
+  },
+  "add": {
+    "message": "Ajouter"
+  },
+  "feederQuestion": {
+    "message": "Aucun flux trouvé à cette adresse. Voulez-vous essayer de le chercher avec Feeder ?"
+  },
+  "feederHint": {
+    "message": "L'adresse, sans paramètres, sera envoyée à Feeder."
+  },
+  "yes": {
+    "message": "Oui"
+  },
+  "no": {
+    "message": "Non"
+  },
+  "neverAsk": {
+    "message": "Ne plus demander"
+  },
+  "feederSearching": {
+    "message": "Recherche avec Feeder…"
+  },
+  "feederSection": {
+    "message": "Recherche de flux avec Feeder"
+  },
+  "feederSectionHint": {
+    "message": "Quand une adresse n'est pas un flux et n'en déclare aucun."
+  },
+  "ask": {
+    "message": "Demander"
+  },
+  "appearance": {
+    "message": "Apparence"
+  },
+  "theme": {
+    "message": "Thème"
+  },
+  "themeSystem": {
+    "message": "Système"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "sync": {
+    "message": "Synchronisation"
+  },
+  "syncService": {
+    "message": "Service de synchronisation"
+  },
+  "syncNone": {
+    "message": "Aucune"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (dépôt privé)"
+  },
+  "dropboxKey": {
+    "message": "Clé d'application Dropbox"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Ouvrez la page d'autorisation"
+  },
+  "dropboxCode": {
+    "message": "2. Collez le code ici"
+  },
+  "dropboxConnect": {
+    "message": "Connecter Dropbox"
+  },
+  "githubRepo": {
+    "message": "propriétaire/dépôt"
+  },
+  "githubToken": {
+    "message": "Jeton avec accès à Contents"
+  },
+  "githubConnect": {
+    "message": "Connecter GitHub"
+  },
+  "syncNow": {
+    "message": "Synchroniser maintenant"
+  },
+  "disconnect": {
+    "message": "Déconnecter"
+  },
+  "retryInBrowser": {
+    "message": "Réessayer dans le navigateur"
+  },
+  "retryInBrowserTitle": {
+    "message": "Charge la page dans un onglet temporaire en arrière-plan et relance l'extraction"
+  },
+  "favorite": {
+    "message": "Favori"
+  },
+  "addFavorite": {
+    "message": "Ajouter aux favoris"
+  },
+  "removeFavorite": {
+    "message": "Retirer des favoris"
+  },
+  "share": {
+    "message": "Partager le lien"
+  },
+  "openOriginal": {
+    "message": "Ouvrir l'original"
+  },
+  "copyLink": {
+    "message": "Copier le lien"
+  },
+  "shareSystem": {
+    "message": "Partager…"
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "addTagPlaceholder": {
+    "message": "Ajouter un tag…"
+  },
+  "addTagLabel": {
+    "message": "Ajouter des tags séparés par des virgules"
+  },
+  "usedTags": {
+    "message": "Tags déjà utilisés"
+  },
+  "note": {
+    "message": "Note"
+  },
+  "notePlaceholder": {
+    "message": "Écrivez une note : elle est enregistrée automatiquement"
+  },
+  "noteLabel": {
+    "message": "Note sur l'article"
+  },
+  "extracting": {
+    "message": "Extraction de l'article…"
+  },
+  "unreadOf": {
+    "message": "$1 non lus sur $2"
+  },
+  "allFeeds": {
+    "message": "Tous les flux"
+  },
+  "updateFailed": {
+    "message": "Échec de la mise à jour : $1"
+  },
+  "untitled": {
+    "message": "(sans titre)"
+  },
+  "favoriteOf": {
+    "message": "Favori : $1"
+  },
+  "tagTitle": {
+    "message": "Tag : $1"
+  },
+  "noMatch": {
+    "message": "Aucun article ne correspond à la recherche et aux filtres."
+  },
+  "noFavorites": {
+    "message": "Aucun favori. Ajoutez-en avec l'étoile à côté des articles."
+  },
+  "noArticles": {
+    "message": "Aucun article."
+  },
+  "remove": {
+    "message": "Retirer"
+  },
+  "errNoFeed": {
+    "message": "Aucun flux RSS/Atom trouvé à cette adresse"
+  },
+  "errFeederNone": {
+    "message": "Feeder n'a trouvé aucun flux pour ce site"
+  },
+  "errInvalidUrl": {
+    "message": "URL non valide"
+  },
+  "errDuplicate": {
+    "message": "Ce flux a déjà été ajouté"
+  },
+  "errNotFeed": {
+    "message": "Le document n'est pas un flux RSS/Atom"
+  },
+  "connectedDropbox": {
+    "message": "Connecté à Dropbox"
+  },
+  "connectedGithub": {
+    "message": "Connecté à GitHub : $1"
+  },
+  "syncing": {
+    "message": "Synchronisation en cours…"
+  },
+  "lastSync": {
+    "message": "Dernière synchronisation : $1"
+  },
+  "syncFailed": {
+    "message": "Échec de la synchronisation. $1"
+  },
+  "addTagNamed": {
+    "message": "Ajouter le tag $1"
+  },
+  "removeTagNamed": {
+    "message": "Retirer le tag $1"
+  },
+  "linkCopied": {
+    "message": "Lien copié"
+  },
+  "copyFailed": {
+    "message": "Impossible de copier le lien"
+  },
+  "shareUnavailable": {
+    "message": "Partage indisponible : utilisez « Copier le lien »"
+  },
+  "openVideo": {
+    "message": "Ouvrir la vidéo dans un onglet"
+  },
+  "littleText": {
+    "message": "Peu de texte a pu être extrait de la page."
+  },
+  "hintRetry": {
+    "message": "Essayez « Réessayer dans le navigateur »."
+  },
+  "textIncomplete": {
+    "message": "Le texte est peut-être incomplet."
+  },
+  "feedTextShown": {
+    "message": "Voici le texte du flux."
+  },
+  "noText": {
+    "message": "Aucun texte disponible."
+  },
+  "noLink": {
+    "message": "Cette entrée du flux n'a pas de lien."
+  },
+  "downloadFailed": {
+    "message": "Impossible de télécharger la page ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Échec du chargement dans le navigateur ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Saisissez d'abord la clé d'application Dropbox"
+  },
+  "openAuthFirst": {
+    "message": "Ouvrez d'abord la page d'autorisation"
+  },
+  "disconnected": {
+    "message": "Déconnecté. Les données restent sur cet appareil et dans le fichier déjà enregistré."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox a refusé l'autorisation : vérifiez la clé d'application et le code"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox n'a pas fourni de jeton d'accès durable"
+  },
+  "readError": {
+    "message": "$1 : erreur de lecture"
+  },
+  "readErrorHttp": {
+    "message": "$1 : erreur de lecture (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1 : erreur d'écriture (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub : jeton non valide ou expiré"
+  },
+  "githubNotFound": {
+    "message": "GitHub : dépôt introuvable ou jeton sans accès"
+  },
+  "githubError": {
+    "message": "GitHub : erreur (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub : le dépôt est public. Utilisez-en un privé"
+  },
+  "githubRepoFormat": {
+    "message": "Écrivez le dépôt sous la forme propriétaire/nom"
+  },
+  "syncCorrupt": {
+    "message": "Le fichier de synchronisation est endommagé : il ne sera pas écrasé"
+  },
+  "syncNewer": {
+    "message": "Le fichier provient d'une version plus récente : mettez à jour l'extension"
+  },
+  "syncInvalid": {
+    "message": "Le fichier de synchronisation n'est pas valide : il ne sera pas écrasé"
+  },
+  "syncBusy": {
+    "message": "D'autres appareils sont en train d'écrire : réessayez dans un instant"
+  }
+}

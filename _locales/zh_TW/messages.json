@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "側邊面板 RSS 閱讀器：從原始網頁擷取文章並以閱讀模式顯示。"
+  },
+  "actionTitle": {
+    "message": "開啟 RSS Reader"
+  },
+  "homeTitle": {
+    "message": "訂閱來源"
+  },
+  "refresh": {
+    "message": "重新整理訂閱來源"
+  },
+  "menu": {
+    "message": "訂閱來源與設定"
+  },
+  "searchAll": {
+    "message": "搜尋所有訂閱來源"
+  },
+  "tagsHeading": {
+    "message": "標籤"
+  },
+  "noFeeds": {
+    "message": "還沒有訂閱來源。請從選單新增。"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "searchArticles": {
+    "message": "搜尋標題、內文、標籤和筆記"
+  },
+  "filterByTag": {
+    "message": "依標籤篩選"
+  },
+  "unreadOnly": {
+    "message": "未讀"
+  },
+  "favorites": {
+    "message": "我的最愛"
+  },
+  "markAllRead": {
+    "message": "標為已讀"
+  },
+  "markAllReadTitle": {
+    "message": "將顯示中的文章標為已讀"
+  },
+  "addPlaceholder": {
+    "message": "訂閱來源或網站的 URL"
+  },
+  "add": {
+    "message": "新增"
+  },
+  "feederQuestion": {
+    "message": "此網址找不到訂閱來源。要試著用 Feeder 尋找嗎？"
+  },
+  "feederHint": {
+    "message": "此網址（不含參數）將傳送給 Feeder。"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "neverAsk": {
+    "message": "不要再詢問"
+  },
+  "feederSearching": {
+    "message": "正在用 Feeder 尋找…"
+  },
+  "feederSection": {
+    "message": "用 Feeder 尋找訂閱來源"
+  },
+  "feederSectionHint": {
+    "message": "當網址不是訂閱來源，也未宣告訂閱來源時。"
+  },
+  "ask": {
+    "message": "詢問"
+  },
+  "appearance": {
+    "message": "外觀"
+  },
+  "theme": {
+    "message": "主題"
+  },
+  "themeSystem": {
+    "message": "跟隨系統"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "sync": {
+    "message": "同步"
+  },
+  "syncService": {
+    "message": "同步服務"
+  },
+  "syncNone": {
+    "message": "無"
+  },
+  "syncGithubOption": {
+    "message": "GitHub（私人存放庫）"
+  },
+  "dropboxKey": {
+    "message": "Dropbox 應用程式金鑰"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. 開啟授權頁面"
+  },
+  "dropboxCode": {
+    "message": "2. 在此貼上代碼"
+  },
+  "dropboxConnect": {
+    "message": "連結 Dropbox"
+  },
+  "githubRepo": {
+    "message": "擁有者/存放庫"
+  },
+  "githubToken": {
+    "message": "具有 Contents 權限的權杖"
+  },
+  "githubConnect": {
+    "message": "連結 GitHub"
+  },
+  "syncNow": {
+    "message": "立即同步"
+  },
+  "disconnect": {
+    "message": "中斷連結"
+  },
+  "retryInBrowser": {
+    "message": "在瀏覽器中重試"
+  },
+  "retryInBrowserTitle": {
+    "message": "在暫時的背景分頁中載入網頁並重新擷取"
+  },
+  "favorite": {
+    "message": "我的最愛"
+  },
+  "addFavorite": {
+    "message": "加入我的最愛"
+  },
+  "removeFavorite": {
+    "message": "從我的最愛移除"
+  },
+  "share": {
+    "message": "分享連結"
+  },
+  "openOriginal": {
+    "message": "開啟原文"
+  },
+  "copyLink": {
+    "message": "複製連結"
+  },
+  "shareSystem": {
+    "message": "分享…"
+  },
+  "email": {
+    "message": "電子郵件"
+  },
+  "addTagPlaceholder": {
+    "message": "新增標籤…"
+  },
+  "addTagLabel": {
+    "message": "新增標籤，以逗號分隔"
+  },
+  "usedTags": {
+    "message": "已使用的標籤"
+  },
+  "note": {
+    "message": "筆記"
+  },
+  "notePlaceholder": {
+    "message": "撰寫筆記：會自動儲存"
+  },
+  "noteLabel": {
+    "message": "文章筆記"
+  },
+  "extracting": {
+    "message": "正在擷取文章…"
+  },
+  "unreadOf": {
+    "message": "$2 篇中有 $1 篇未讀"
+  },
+  "allFeeds": {
+    "message": "所有訂閱來源"
+  },
+  "updateFailed": {
+    "message": "更新失敗：$1"
+  },
+  "untitled": {
+    "message": "（無標題）"
+  },
+  "favoriteOf": {
+    "message": "我的最愛：$1"
+  },
+  "tagTitle": {
+    "message": "標籤：$1"
+  },
+  "noMatch": {
+    "message": "沒有符合搜尋和篩選條件的文章。"
+  },
+  "noFavorites": {
+    "message": "還沒有我的最愛。點選文章旁的星號即可加入。"
+  },
+  "noArticles": {
+    "message": "沒有文章。"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "errNoFeed": {
+    "message": "此網址找不到 RSS/Atom 訂閱來源"
+  },
+  "errFeederNone": {
+    "message": "Feeder 找不到此網站的訂閱來源"
+  },
+  "errInvalidUrl": {
+    "message": "URL 無效"
+  },
+  "errDuplicate": {
+    "message": "已新增此訂閱來源"
+  },
+  "errNotFeed": {
+    "message": "此文件不是 RSS/Atom 訂閱來源"
+  },
+  "connectedDropbox": {
+    "message": "已連結 Dropbox"
+  },
+  "connectedGithub": {
+    "message": "已連結 GitHub：$1"
+  },
+  "syncing": {
+    "message": "正在同步…"
+  },
+  "lastSync": {
+    "message": "上次同步：$1"
+  },
+  "syncFailed": {
+    "message": "同步失敗。$1"
+  },
+  "addTagNamed": {
+    "message": "新增標籤 $1"
+  },
+  "removeTagNamed": {
+    "message": "移除標籤 $1"
+  },
+  "linkCopied": {
+    "message": "已複製連結"
+  },
+  "copyFailed": {
+    "message": "無法複製連結"
+  },
+  "shareUnavailable": {
+    "message": "無法分享：請使用「複製連結」"
+  },
+  "openVideo": {
+    "message": "在分頁中開啟影片"
+  },
+  "littleText": {
+    "message": "從網頁擷取到的文字很少。"
+  },
+  "hintRetry": {
+    "message": "請嘗試「在瀏覽器中重試」。"
+  },
+  "textIncomplete": {
+    "message": "文字可能不完整。"
+  },
+  "feedTextShown": {
+    "message": "這是訂閱來源中的文字。"
+  },
+  "noText": {
+    "message": "沒有可用的文字。"
+  },
+  "noLink": {
+    "message": "此訂閱項目沒有連結。"
+  },
+  "downloadFailed": {
+    "message": "無法下載網頁（$1）。"
+  },
+  "browserLoadFailed": {
+    "message": "在瀏覽器中載入失敗（$1）。"
+  },
+  "needDropboxKey": {
+    "message": "請先輸入 Dropbox 應用程式金鑰"
+  },
+  "openAuthFirst": {
+    "message": "請先開啟授權頁面"
+  },
+  "disconnected": {
+    "message": "已中斷連結。資料仍保留在此裝置和已儲存的檔案中。"
+  },
+  "dropboxRefused": {
+    "message": "Dropbox 拒絕授權：請檢查應用程式金鑰和代碼"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox 未提供長期存取權杖"
+  },
+  "readError": {
+    "message": "$1：讀取錯誤"
+  },
+  "readErrorHttp": {
+    "message": "$1：讀取錯誤（HTTP $2）"
+  },
+  "writeErrorHttp": {
+    "message": "$1：寫入錯誤（HTTP $2）"
+  },
+  "githubBadToken": {
+    "message": "GitHub：權杖無效或已過期"
+  },
+  "githubNotFound": {
+    "message": "GitHub：找不到存放庫或權杖無存取權"
+  },
+  "githubError": {
+    "message": "GitHub：錯誤（HTTP $1）"
+  },
+  "githubPublic": {
+    "message": "GitHub：此存放庫為公開。請使用私人存放庫"
+  },
+  "githubRepoFormat": {
+    "message": "請以 擁有者/名稱 的格式輸入存放庫"
+  },
+  "syncCorrupt": {
+    "message": "同步檔案已損毀：不會被覆寫"
+  },
+  "syncNewer": {
+    "message": "此檔案來自較新版本：請更新擴充功能"
+  },
+  "syncInvalid": {
+    "message": "同步檔案無效：不會被覆寫"
+  },
+  "syncBusy": {
+    "message": "其他裝置正在寫入：請稍後再試"
+  }
+}

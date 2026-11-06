@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "RSS reader in the side panel: extracts the article from the original page and shows it in reading mode."
+  },
+  "actionTitle": {
+    "message": "Open RSS Reader"
+  },
+  "homeTitle": {
+    "message": "Feeds"
+  },
+  "refresh": {
+    "message": "Refresh feeds"
+  },
+  "menu": {
+    "message": "Feeds and settings"
+  },
+  "searchAll": {
+    "message": "Search all feeds"
+  },
+  "tagsHeading": {
+    "message": "Tags"
+  },
+  "noFeeds": {
+    "message": "No feeds yet. Add one from the menu."
+  },
+  "back": {
+    "message": "Back"
+  },
+  "searchArticles": {
+    "message": "Search titles, text, tags, notes"
+  },
+  "filterByTag": {
+    "message": "Filter by tag"
+  },
+  "unreadOnly": {
+    "message": "Unread"
+  },
+  "favorites": {
+    "message": "Favorites"
+  },
+  "markAllRead": {
+    "message": "Mark as read"
+  },
+  "markAllReadTitle": {
+    "message": "Mark the visible articles as read"
+  },
+  "addPlaceholder": {
+    "message": "Feed or site URL"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "feederQuestion": {
+    "message": "No feed found at this address. Do you want to try finding it with Feeder?"
+  },
+  "feederHint": {
+    "message": "The address, without parameters, will be sent to Feeder."
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "neverAsk": {
+    "message": "Don't ask again"
+  },
+  "feederSearching": {
+    "message": "Searching with Feeder…"
+  },
+  "feederSection": {
+    "message": "Feed lookup with Feeder"
+  },
+  "feederSectionHint": {
+    "message": "When an address isn't a feed and doesn't declare one."
+  },
+  "ask": {
+    "message": "Ask"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "sync": {
+    "message": "Sync"
+  },
+  "syncService": {
+    "message": "Sync service"
+  },
+  "syncNone": {
+    "message": "None"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (private repository)"
+  },
+  "dropboxKey": {
+    "message": "Dropbox app key"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Open the authorization page"
+  },
+  "dropboxCode": {
+    "message": "2. Paste the code here"
+  },
+  "dropboxConnect": {
+    "message": "Connect Dropbox"
+  },
+  "githubRepo": {
+    "message": "owner/repository"
+  },
+  "githubToken": {
+    "message": "Token with Contents access"
+  },
+  "githubConnect": {
+    "message": "Connect GitHub"
+  },
+  "syncNow": {
+    "message": "Sync now"
+  },
+  "disconnect": {
+    "message": "Disconnect"
+  },
+  "retryInBrowser": {
+    "message": "Retry in browser"
+  },
+  "retryInBrowserTitle": {
+    "message": "Load the page in a temporary background tab and retry the extraction"
+  },
+  "favorite": {
+    "message": "Favorite"
+  },
+  "addFavorite": {
+    "message": "Add to favorites"
+  },
+  "removeFavorite": {
+    "message": "Remove from favorites"
+  },
+  "share": {
+    "message": "Share the link"
+  },
+  "openOriginal": {
+    "message": "Open the original"
+  },
+  "copyLink": {
+    "message": "Copy link"
+  },
+  "shareSystem": {
+    "message": "Share…"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "addTagPlaceholder": {
+    "message": "Add tag…"
+  },
+  "addTagLabel": {
+    "message": "Add tags, separated by commas"
+  },
+  "usedTags": {
+    "message": "Tags already used"
+  },
+  "note": {
+    "message": "Note"
+  },
+  "notePlaceholder": {
+    "message": "Write a note: it is saved automatically"
+  },
+  "noteLabel": {
+    "message": "Note on the article"
+  },
+  "extracting": {
+    "message": "Extracting the article…"
+  },
+  "unreadOf": {
+    "message": "$1 unread of $2"
+  },
+  "allFeeds": {
+    "message": "All feeds"
+  },
+  "updateFailed": {
+    "message": "Update failed: $1"
+  },
+  "untitled": {
+    "message": "(untitled)"
+  },
+  "favoriteOf": {
+    "message": "Favorite: $1"
+  },
+  "tagTitle": {
+    "message": "Tag: $1"
+  },
+  "noMatch": {
+    "message": "No articles match your search and filters."
+  },
+  "noFavorites": {
+    "message": "No favorites yet. Add them with the star next to each article."
+  },
+  "noArticles": {
+    "message": "No articles."
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "errNoFeed": {
+    "message": "No RSS/Atom feed found at this address"
+  },
+  "errFeederNone": {
+    "message": "Feeder found no feed for this site"
+  },
+  "errInvalidUrl": {
+    "message": "Invalid URL"
+  },
+  "errDuplicate": {
+    "message": "This feed has already been added"
+  },
+  "errNotFeed": {
+    "message": "The document is not an RSS/Atom feed"
+  },
+  "connectedDropbox": {
+    "message": "Connected to Dropbox"
+  },
+  "connectedGithub": {
+    "message": "Connected to GitHub: $1"
+  },
+  "syncing": {
+    "message": "Syncing…"
+  },
+  "lastSync": {
+    "message": "Last sync: $1"
+  },
+  "syncFailed": {
+    "message": "Sync failed. $1"
+  },
+  "addTagNamed": {
+    "message": "Add the tag $1"
+  },
+  "removeTagNamed": {
+    "message": "Remove the tag $1"
+  },
+  "linkCopied": {
+    "message": "Link copied"
+  },
+  "copyFailed": {
+    "message": "Could not copy the link"
+  },
+  "shareUnavailable": {
+    "message": "Sharing is unavailable: use \"Copy link\""
+  },
+  "openVideo": {
+    "message": "Open the video in a tab"
+  },
+  "littleText": {
+    "message": "Little text could be extracted from the page."
+  },
+  "hintRetry": {
+    "message": "Try \"Retry in browser\"."
+  },
+  "textIncomplete": {
+    "message": "The text may be incomplete."
+  },
+  "feedTextShown": {
+    "message": "This is the text from the feed."
+  },
+  "noText": {
+    "message": "No text available."
+  },
+  "noLink": {
+    "message": "This feed entry has no link."
+  },
+  "downloadFailed": {
+    "message": "Could not download the page ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Loading in the browser failed ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Enter the Dropbox app key first"
+  },
+  "openAuthFirst": {
+    "message": "Open the authorization page first"
+  },
+  "disconnected": {
+    "message": "Disconnected. Your data stays on this device and in the file already saved."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox refused the authorization: check the app key and the code"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox did not provide a long-lived access token"
+  },
+  "readError": {
+    "message": "$1: read error"
+  },
+  "readErrorHttp": {
+    "message": "$1: read error (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: write error (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: token invalid or expired"
+  },
+  "githubNotFound": {
+    "message": "GitHub: repository not found or token without access"
+  },
+  "githubError": {
+    "message": "GitHub: error (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: the repository is public. Use a private one"
+  },
+  "githubRepoFormat": {
+    "message": "Write the repository as owner/name"
+  },
+  "syncCorrupt": {
+    "message": "The sync file is damaged: it will not be overwritten"
+  },
+  "syncNewer": {
+    "message": "The file is from a newer version: update the extension"
+  },
+  "syncInvalid": {
+    "message": "The sync file is not valid: it will not be overwritten"
+  },
+  "syncBusy": {
+    "message": "Other devices are writing: try again shortly"
+  }
+}

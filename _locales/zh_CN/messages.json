@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "侧边栏 RSS 阅读器：从原始网页提取文章并以阅读模式显示。"
+  },
+  "actionTitle": {
+    "message": "打开 RSS Reader"
+  },
+  "homeTitle": {
+    "message": "订阅源"
+  },
+  "refresh": {
+    "message": "刷新订阅源"
+  },
+  "menu": {
+    "message": "订阅源和设置"
+  },
+  "searchAll": {
+    "message": "搜索所有订阅源"
+  },
+  "tagsHeading": {
+    "message": "标签"
+  },
+  "noFeeds": {
+    "message": "还没有订阅源。请从菜单添加。"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "searchArticles": {
+    "message": "搜索标题、正文、标签和笔记"
+  },
+  "filterByTag": {
+    "message": "按标签筛选"
+  },
+  "unreadOnly": {
+    "message": "未读"
+  },
+  "favorites": {
+    "message": "收藏"
+  },
+  "markAllRead": {
+    "message": "标为已读"
+  },
+  "markAllReadTitle": {
+    "message": "将可见文章标为已读"
+  },
+  "addPlaceholder": {
+    "message": "订阅源或网站的 URL"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "feederQuestion": {
+    "message": "此地址未找到订阅源。要尝试用 Feeder 查找吗？"
+  },
+  "feederHint": {
+    "message": "该地址（不含参数）将发送给 Feeder。"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "neverAsk": {
+    "message": "不再询问"
+  },
+  "feederSearching": {
+    "message": "正在用 Feeder 查找…"
+  },
+  "feederSection": {
+    "message": "用 Feeder 查找订阅源"
+  },
+  "feederSectionHint": {
+    "message": "当地址不是订阅源，也未声明订阅源时。"
+  },
+  "ask": {
+    "message": "询问"
+  },
+  "appearance": {
+    "message": "外观"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeSystem": {
+    "message": "跟随系统"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "sync": {
+    "message": "同步"
+  },
+  "syncService": {
+    "message": "同步服务"
+  },
+  "syncNone": {
+    "message": "无"
+  },
+  "syncGithubOption": {
+    "message": "GitHub（私有仓库）"
+  },
+  "dropboxKey": {
+    "message": "Dropbox 应用密钥"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. 打开授权页面"
+  },
+  "dropboxCode": {
+    "message": "2. 在此粘贴代码"
+  },
+  "dropboxConnect": {
+    "message": "连接 Dropbox"
+  },
+  "githubRepo": {
+    "message": "所有者/仓库"
+  },
+  "githubToken": {
+    "message": "具有 Contents 权限的令牌"
+  },
+  "githubConnect": {
+    "message": "连接 GitHub"
+  },
+  "syncNow": {
+    "message": "立即同步"
+  },
+  "disconnect": {
+    "message": "断开连接"
+  },
+  "retryInBrowser": {
+    "message": "在浏览器中重试"
+  },
+  "retryInBrowserTitle": {
+    "message": "在临时后台标签页中加载页面并重新提取"
+  },
+  "favorite": {
+    "message": "收藏"
+  },
+  "addFavorite": {
+    "message": "添加到收藏"
+  },
+  "removeFavorite": {
+    "message": "从收藏中移除"
+  },
+  "share": {
+    "message": "分享链接"
+  },
+  "openOriginal": {
+    "message": "打开原文"
+  },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "shareSystem": {
+    "message": "分享…"
+  },
+  "email": {
+    "message": "电子邮件"
+  },
+  "addTagPlaceholder": {
+    "message": "添加标签…"
+  },
+  "addTagLabel": {
+    "message": "添加标签，用逗号分隔"
+  },
+  "usedTags": {
+    "message": "已用标签"
+  },
+  "note": {
+    "message": "笔记"
+  },
+  "notePlaceholder": {
+    "message": "写笔记：会自动保存"
+  },
+  "noteLabel": {
+    "message": "文章笔记"
+  },
+  "extracting": {
+    "message": "正在提取文章…"
+  },
+  "unreadOf": {
+    "message": "$2 篇中有 $1 篇未读"
+  },
+  "allFeeds": {
+    "message": "所有订阅源"
+  },
+  "updateFailed": {
+    "message": "更新失败：$1"
+  },
+  "untitled": {
+    "message": "（无标题）"
+  },
+  "favoriteOf": {
+    "message": "收藏：$1"
+  },
+  "tagTitle": {
+    "message": "标签：$1"
+  },
+  "noMatch": {
+    "message": "没有符合搜索和筛选条件的文章。"
+  },
+  "noFavorites": {
+    "message": "还没有收藏。点击文章旁的星标即可添加。"
+  },
+  "noArticles": {
+    "message": "没有文章。"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "errNoFeed": {
+    "message": "此地址未找到 RSS/Atom 订阅源"
+  },
+  "errFeederNone": {
+    "message": "Feeder 未找到此网站的订阅源"
+  },
+  "errInvalidUrl": {
+    "message": "URL 无效"
+  },
+  "errDuplicate": {
+    "message": "此订阅源已添加"
+  },
+  "errNotFeed": {
+    "message": "该文档不是 RSS/Atom 订阅源"
+  },
+  "connectedDropbox": {
+    "message": "已连接到 Dropbox"
+  },
+  "connectedGithub": {
+    "message": "已连接到 GitHub：$1"
+  },
+  "syncing": {
+    "message": "正在同步…"
+  },
+  "lastSync": {
+    "message": "上次同步：$1"
+  },
+  "syncFailed": {
+    "message": "同步失败。$1"
+  },
+  "addTagNamed": {
+    "message": "添加标签 $1"
+  },
+  "removeTagNamed": {
+    "message": "移除标签 $1"
+  },
+  "linkCopied": {
+    "message": "链接已复制"
+  },
+  "copyFailed": {
+    "message": "无法复制链接"
+  },
+  "shareUnavailable": {
+    "message": "无法分享：请使用“复制链接”"
+  },
+  "openVideo": {
+    "message": "在标签页中打开视频"
+  },
+  "littleText": {
+    "message": "从页面提取到的文字很少。"
+  },
+  "hintRetry": {
+    "message": "请尝试“在浏览器中重试”。"
+  },
+  "textIncomplete": {
+    "message": "文字可能不完整。"
+  },
+  "feedTextShown": {
+    "message": "这是订阅源中的文字。"
+  },
+  "noText": {
+    "message": "没有可用的文字。"
+  },
+  "noLink": {
+    "message": "此订阅条目没有链接。"
+  },
+  "downloadFailed": {
+    "message": "无法下载页面（$1）。"
+  },
+  "browserLoadFailed": {
+    "message": "在浏览器中加载失败（$1）。"
+  },
+  "needDropboxKey": {
+    "message": "请先输入 Dropbox 应用密钥"
+  },
+  "openAuthFirst": {
+    "message": "请先打开授权页面"
+  },
+  "disconnected": {
+    "message": "已断开连接。数据仍保留在此设备和已保存的文件中。"
+  },
+  "dropboxRefused": {
+    "message": "Dropbox 拒绝了授权：请检查应用密钥和代码"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox 未提供长期访问令牌"
+  },
+  "readError": {
+    "message": "$1：读取错误"
+  },
+  "readErrorHttp": {
+    "message": "$1：读取错误（HTTP $2）"
+  },
+  "writeErrorHttp": {
+    "message": "$1：写入错误（HTTP $2）"
+  },
+  "githubBadToken": {
+    "message": "GitHub：令牌无效或已过期"
+  },
+  "githubNotFound": {
+    "message": "GitHub：未找到仓库或令牌无权访问"
+  },
+  "githubError": {
+    "message": "GitHub：错误（HTTP $1）"
+  },
+  "githubPublic": {
+    "message": "GitHub：该仓库是公开的。请使用私有仓库"
+  },
+  "githubRepoFormat": {
+    "message": "请按 所有者/名称 的格式填写仓库"
+  },
+  "syncCorrupt": {
+    "message": "同步文件已损坏：不会被覆盖"
+  },
+  "syncNewer": {
+    "message": "该文件来自较新版本：请更新扩展程序"
+  },
+  "syncInvalid": {
+    "message": "同步文件无效：不会被覆盖"
+  },
+  "syncBusy": {
+    "message": "其他设备正在写入：请稍后重试"
+  }
+}

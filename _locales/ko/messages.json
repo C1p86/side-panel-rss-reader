@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "사이드 패널 RSS 리더: 원본 페이지에서 기사를 추출해 읽기 모드로 보여 줍니다."
+  },
+  "actionTitle": {
+    "message": "RSS Reader 열기"
+  },
+  "homeTitle": {
+    "message": "피드"
+  },
+  "refresh": {
+    "message": "피드 새로 고침"
+  },
+  "menu": {
+    "message": "피드 및 설정"
+  },
+  "searchAll": {
+    "message": "모든 피드 검색"
+  },
+  "tagsHeading": {
+    "message": "태그"
+  },
+  "noFeeds": {
+    "message": "아직 피드가 없습니다. 메뉴에서 추가하세요."
+  },
+  "back": {
+    "message": "뒤로"
+  },
+  "searchArticles": {
+    "message": "제목, 본문, 태그, 메모 검색"
+  },
+  "filterByTag": {
+    "message": "태그로 필터링"
+  },
+  "unreadOnly": {
+    "message": "읽지 않음"
+  },
+  "favorites": {
+    "message": "즐겨찾기"
+  },
+  "markAllRead": {
+    "message": "읽음으로 표시"
+  },
+  "markAllReadTitle": {
+    "message": "보이는 기사를 읽음으로 표시"
+  },
+  "addPlaceholder": {
+    "message": "피드 또는 사이트 URL"
+  },
+  "add": {
+    "message": "추가"
+  },
+  "feederQuestion": {
+    "message": "이 주소에서 피드를 찾지 못했습니다. Feeder로 찾아볼까요?"
+  },
+  "feederHint": {
+    "message": "주소는 매개변수를 제외하고 Feeder로 전송됩니다."
+  },
+  "yes": {
+    "message": "예"
+  },
+  "no": {
+    "message": "아니요"
+  },
+  "neverAsk": {
+    "message": "다시 묻지 않기"
+  },
+  "feederSearching": {
+    "message": "Feeder로 찾는 중…"
+  },
+  "feederSection": {
+    "message": "Feeder로 피드 찾기"
+  },
+  "feederSectionHint": {
+    "message": "주소가 피드가 아니고 피드를 선언하지도 않은 경우."
+  },
+  "ask": {
+    "message": "묻기"
+  },
+  "appearance": {
+    "message": "모양"
+  },
+  "theme": {
+    "message": "테마"
+  },
+  "themeSystem": {
+    "message": "시스템"
+  },
+  "themeLight": {
+    "message": "밝게"
+  },
+  "themeDark": {
+    "message": "어둡게"
+  },
+  "sync": {
+    "message": "동기화"
+  },
+  "syncService": {
+    "message": "동기화 서비스"
+  },
+  "syncNone": {
+    "message": "없음"
+  },
+  "syncGithubOption": {
+    "message": "GitHub(비공개 저장소)"
+  },
+  "dropboxKey": {
+    "message": "Dropbox 앱 키"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. 인증 페이지 열기"
+  },
+  "dropboxCode": {
+    "message": "2. 여기에 코드 붙여넣기"
+  },
+  "dropboxConnect": {
+    "message": "Dropbox 연결"
+  },
+  "githubRepo": {
+    "message": "소유자/저장소"
+  },
+  "githubToken": {
+    "message": "Contents 접근 권한이 있는 토큰"
+  },
+  "githubConnect": {
+    "message": "GitHub 연결"
+  },
+  "syncNow": {
+    "message": "지금 동기화"
+  },
+  "disconnect": {
+    "message": "연결 해제"
+  },
+  "retryInBrowser": {
+    "message": "브라우저에서 다시 시도"
+  },
+  "retryInBrowserTitle": {
+    "message": "임시 백그라운드 탭에서 페이지를 불러와 추출을 다시 시도합니다"
+  },
+  "favorite": {
+    "message": "즐겨찾기"
+  },
+  "addFavorite": {
+    "message": "즐겨찾기에 추가"
+  },
+  "removeFavorite": {
+    "message": "즐겨찾기에서 제거"
+  },
+  "share": {
+    "message": "링크 공유"
+  },
+  "openOriginal": {
+    "message": "원문 열기"
+  },
+  "copyLink": {
+    "message": "링크 복사"
+  },
+  "shareSystem": {
+    "message": "공유…"
+  },
+  "email": {
+    "message": "이메일"
+  },
+  "addTagPlaceholder": {
+    "message": "태그 추가…"
+  },
+  "addTagLabel": {
+    "message": "태그 추가(쉼표로 구분)"
+  },
+  "usedTags": {
+    "message": "이미 사용한 태그"
+  },
+  "note": {
+    "message": "메모"
+  },
+  "notePlaceholder": {
+    "message": "메모 작성: 자동으로 저장됩니다"
+  },
+  "noteLabel": {
+    "message": "기사 메모"
+  },
+  "extracting": {
+    "message": "기사 추출 중…"
+  },
+  "unreadOf": {
+    "message": "$2개 중 $1개 읽지 않음"
+  },
+  "allFeeds": {
+    "message": "모든 피드"
+  },
+  "updateFailed": {
+    "message": "업데이트 실패: $1"
+  },
+  "untitled": {
+    "message": "(제목 없음)"
+  },
+  "favoriteOf": {
+    "message": "즐겨찾기: $1"
+  },
+  "tagTitle": {
+    "message": "태그: $1"
+  },
+  "noMatch": {
+    "message": "검색 및 필터와 일치하는 기사가 없습니다."
+  },
+  "noFavorites": {
+    "message": "아직 즐겨찾기가 없습니다. 기사 옆의 별표로 추가하세요."
+  },
+  "noArticles": {
+    "message": "기사가 없습니다."
+  },
+  "remove": {
+    "message": "제거"
+  },
+  "errNoFeed": {
+    "message": "이 주소에서 RSS/Atom 피드를 찾지 못했습니다"
+  },
+  "errFeederNone": {
+    "message": "Feeder가 이 사이트의 피드를 찾지 못했습니다"
+  },
+  "errInvalidUrl": {
+    "message": "잘못된 URL입니다"
+  },
+  "errDuplicate": {
+    "message": "이미 추가된 피드입니다"
+  },
+  "errNotFeed": {
+    "message": "이 문서는 RSS/Atom 피드가 아닙니다"
+  },
+  "connectedDropbox": {
+    "message": "Dropbox에 연결됨"
+  },
+  "connectedGithub": {
+    "message": "GitHub에 연결됨: $1"
+  },
+  "syncing": {
+    "message": "동기화 중…"
+  },
+  "lastSync": {
+    "message": "마지막 동기화: $1"
+  },
+  "syncFailed": {
+    "message": "동기화 실패. $1"
+  },
+  "addTagNamed": {
+    "message": "태그 $1 추가"
+  },
+  "removeTagNamed": {
+    "message": "태그 $1 제거"
+  },
+  "linkCopied": {
+    "message": "링크를 복사했습니다"
+  },
+  "copyFailed": {
+    "message": "링크를 복사할 수 없습니다"
+  },
+  "shareUnavailable": {
+    "message": "공유할 수 없습니다. \"링크 복사\"를 사용하세요"
+  },
+  "openVideo": {
+    "message": "탭에서 동영상 열기"
+  },
+  "littleText": {
+    "message": "페이지에서 추출한 텍스트가 적습니다."
+  },
+  "hintRetry": {
+    "message": "\"브라우저에서 다시 시도\"를 사용해 보세요."
+  },
+  "textIncomplete": {
+    "message": "텍스트가 불완전할 수 있습니다."
+  },
+  "feedTextShown": {
+    "message": "피드의 텍스트입니다."
+  },
+  "noText": {
+    "message": "사용할 수 있는 텍스트가 없습니다."
+  },
+  "noLink": {
+    "message": "이 피드 항목에는 링크가 없습니다."
+  },
+  "downloadFailed": {
+    "message": "페이지를 다운로드할 수 없습니다($1)."
+  },
+  "browserLoadFailed": {
+    "message": "브라우저에서 불러오지 못했습니다($1)."
+  },
+  "needDropboxKey": {
+    "message": "먼저 Dropbox 앱 키를 입력하세요"
+  },
+  "openAuthFirst": {
+    "message": "먼저 인증 페이지를 여세요"
+  },
+  "disconnected": {
+    "message": "연결을 해제했습니다. 데이터는 이 기기와 이미 저장된 파일에 남아 있습니다."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox가 인증을 거부했습니다. 앱 키와 코드를 확인하세요"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox가 장기 액세스 토큰을 제공하지 않았습니다"
+  },
+  "readError": {
+    "message": "$1: 읽기 오류"
+  },
+  "readErrorHttp": {
+    "message": "$1: 읽기 오류(HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: 쓰기 오류(HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: 토큰이 잘못되었거나 만료되었습니다"
+  },
+  "githubNotFound": {
+    "message": "GitHub: 저장소를 찾을 수 없거나 토큰에 접근 권한이 없습니다"
+  },
+  "githubError": {
+    "message": "GitHub: 오류(HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: 공개 저장소입니다. 비공개 저장소를 사용하세요"
+  },
+  "githubRepoFormat": {
+    "message": "저장소를 소유자/이름 형식으로 입력하세요"
+  },
+  "syncCorrupt": {
+    "message": "동기화 파일이 손상되었습니다. 덮어쓰지 않습니다"
+  },
+  "syncNewer": {
+    "message": "최신 버전의 파일입니다. 확장 프로그램을 업데이트하세요"
+  },
+  "syncInvalid": {
+    "message": "동기화 파일이 올바르지 않습니다. 덮어쓰지 않습니다"
+  },
+  "syncBusy": {
+    "message": "다른 기기에서 쓰는 중입니다. 잠시 후 다시 시도하세요"
+  }
+}

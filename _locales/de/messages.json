@@ -1,0 +1,341 @@
+{
+  "extName": {
+    "message": "RSS Reader Panel"
+  },
+  "extDescription": {
+    "message": "RSS-Reader in der Seitenleiste: holt den Artikel von der Originalseite und zeigt ihn im Lesemodus an."
+  },
+  "actionTitle": {
+    "message": "RSS Reader öffnen"
+  },
+  "homeTitle": {
+    "message": "Feeds"
+  },
+  "refresh": {
+    "message": "Feeds aktualisieren"
+  },
+  "menu": {
+    "message": "Feeds und Einstellungen"
+  },
+  "searchAll": {
+    "message": "Alle Feeds durchsuchen"
+  },
+  "tagsHeading": {
+    "message": "Tags"
+  },
+  "noFeeds": {
+    "message": "Noch keine Feeds. Füge einen über das Menü hinzu."
+  },
+  "back": {
+    "message": "Zurück"
+  },
+  "searchArticles": {
+    "message": "Titel, Text, Tags und Notizen durchsuchen"
+  },
+  "filterByTag": {
+    "message": "Nach Tag filtern"
+  },
+  "unreadOnly": {
+    "message": "Ungelesen"
+  },
+  "favorites": {
+    "message": "Favoriten"
+  },
+  "markAllRead": {
+    "message": "Als gelesen markieren"
+  },
+  "markAllReadTitle": {
+    "message": "Sichtbare Artikel als gelesen markieren"
+  },
+  "addPlaceholder": {
+    "message": "URL des Feeds oder der Website"
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "feederQuestion": {
+    "message": "Unter dieser Adresse wurde kein Feed gefunden. Möchtest du ihn mit Feeder suchen?"
+  },
+  "feederHint": {
+    "message": "Die Adresse wird ohne Parameter an Feeder gesendet."
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "no": {
+    "message": "Nein"
+  },
+  "neverAsk": {
+    "message": "Nicht mehr fragen"
+  },
+  "feederSearching": {
+    "message": "Suche mit Feeder…"
+  },
+  "feederSection": {
+    "message": "Feed-Suche mit Feeder"
+  },
+  "feederSectionHint": {
+    "message": "Wenn eine Adresse kein Feed ist und keinen angibt."
+  },
+  "ask": {
+    "message": "Fragen"
+  },
+  "appearance": {
+    "message": "Darstellung"
+  },
+  "theme": {
+    "message": "Design"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "sync": {
+    "message": "Synchronisierung"
+  },
+  "syncService": {
+    "message": "Synchronisierungsdienst"
+  },
+  "syncNone": {
+    "message": "Keine"
+  },
+  "syncGithubOption": {
+    "message": "GitHub (privates Repository)"
+  },
+  "dropboxKey": {
+    "message": "Dropbox-App-Key"
+  },
+  "dropboxOpenAuth": {
+    "message": "1. Autorisierungsseite öffnen"
+  },
+  "dropboxCode": {
+    "message": "2. Code hier einfügen"
+  },
+  "dropboxConnect": {
+    "message": "Dropbox verbinden"
+  },
+  "githubRepo": {
+    "message": "Besitzer/Repository"
+  },
+  "githubToken": {
+    "message": "Token mit Contents-Zugriff"
+  },
+  "githubConnect": {
+    "message": "GitHub verbinden"
+  },
+  "syncNow": {
+    "message": "Jetzt synchronisieren"
+  },
+  "disconnect": {
+    "message": "Trennen"
+  },
+  "retryInBrowser": {
+    "message": "Im Browser erneut versuchen"
+  },
+  "retryInBrowserTitle": {
+    "message": "Lädt die Seite in einem temporären Hintergrund-Tab und wiederholt die Extraktion"
+  },
+  "favorite": {
+    "message": "Favorit"
+  },
+  "addFavorite": {
+    "message": "Zu Favoriten hinzufügen"
+  },
+  "removeFavorite": {
+    "message": "Aus Favoriten entfernen"
+  },
+  "share": {
+    "message": "Link teilen"
+  },
+  "openOriginal": {
+    "message": "Original öffnen"
+  },
+  "copyLink": {
+    "message": "Link kopieren"
+  },
+  "shareSystem": {
+    "message": "Teilen…"
+  },
+  "email": {
+    "message": "E-Mail"
+  },
+  "addTagPlaceholder": {
+    "message": "Tag hinzufügen…"
+  },
+  "addTagLabel": {
+    "message": "Tags hinzufügen, durch Kommas getrennt"
+  },
+  "usedTags": {
+    "message": "Bereits verwendete Tags"
+  },
+  "note": {
+    "message": "Notiz"
+  },
+  "notePlaceholder": {
+    "message": "Notiz schreiben: Sie wird automatisch gespeichert"
+  },
+  "noteLabel": {
+    "message": "Notiz zum Artikel"
+  },
+  "extracting": {
+    "message": "Artikel wird extrahiert…"
+  },
+  "unreadOf": {
+    "message": "$1 von $2 ungelesen"
+  },
+  "allFeeds": {
+    "message": "Alle Feeds"
+  },
+  "updateFailed": {
+    "message": "Aktualisierung fehlgeschlagen: $1"
+  },
+  "untitled": {
+    "message": "(ohne Titel)"
+  },
+  "favoriteOf": {
+    "message": "Favorit: $1"
+  },
+  "tagTitle": {
+    "message": "Tag: $1"
+  },
+  "noMatch": {
+    "message": "Keine Artikel entsprechen Suche und Filtern."
+  },
+  "noFavorites": {
+    "message": "Noch keine Favoriten. Füge sie mit dem Stern neben den Artikeln hinzu."
+  },
+  "noArticles": {
+    "message": "Keine Artikel."
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "errNoFeed": {
+    "message": "Unter dieser Adresse wurde kein RSS/Atom-Feed gefunden"
+  },
+  "errFeederNone": {
+    "message": "Feeder hat für diese Website keinen Feed gefunden"
+  },
+  "errInvalidUrl": {
+    "message": "Ungültige URL"
+  },
+  "errDuplicate": {
+    "message": "Dieser Feed ist bereits vorhanden"
+  },
+  "errNotFeed": {
+    "message": "Das Dokument ist kein RSS/Atom-Feed"
+  },
+  "connectedDropbox": {
+    "message": "Mit Dropbox verbunden"
+  },
+  "connectedGithub": {
+    "message": "Mit GitHub verbunden: $1"
+  },
+  "syncing": {
+    "message": "Wird synchronisiert…"
+  },
+  "lastSync": {
+    "message": "Letzte Synchronisierung: $1"
+  },
+  "syncFailed": {
+    "message": "Synchronisierung fehlgeschlagen. $1"
+  },
+  "addTagNamed": {
+    "message": "Tag $1 hinzufügen"
+  },
+  "removeTagNamed": {
+    "message": "Tag $1 entfernen"
+  },
+  "linkCopied": {
+    "message": "Link kopiert"
+  },
+  "copyFailed": {
+    "message": "Link konnte nicht kopiert werden"
+  },
+  "shareUnavailable": {
+    "message": "Teilen ist nicht verfügbar: Verwende „Link kopieren“"
+  },
+  "openVideo": {
+    "message": "Video in einem Tab öffnen"
+  },
+  "littleText": {
+    "message": "Aus der Seite konnte nur wenig Text extrahiert werden."
+  },
+  "hintRetry": {
+    "message": "Versuche „Im Browser erneut versuchen“."
+  },
+  "textIncomplete": {
+    "message": "Der Text ist möglicherweise unvollständig."
+  },
+  "feedTextShown": {
+    "message": "Dies ist der Text aus dem Feed."
+  },
+  "noText": {
+    "message": "Kein Text verfügbar."
+  },
+  "noLink": {
+    "message": "Dieser Feed-Eintrag hat keinen Link."
+  },
+  "downloadFailed": {
+    "message": "Seite konnte nicht geladen werden ($1)."
+  },
+  "browserLoadFailed": {
+    "message": "Laden im Browser fehlgeschlagen ($1)."
+  },
+  "needDropboxKey": {
+    "message": "Gib zuerst den Dropbox-App-Key ein"
+  },
+  "openAuthFirst": {
+    "message": "Öffne zuerst die Autorisierungsseite"
+  },
+  "disconnected": {
+    "message": "Getrennt. Die Daten bleiben auf diesem Gerät und in der bereits gespeicherten Datei."
+  },
+  "dropboxRefused": {
+    "message": "Dropbox hat die Autorisierung abgelehnt: Prüfe App-Key und Code"
+  },
+  "dropboxNoToken": {
+    "message": "Dropbox hat kein dauerhaftes Zugriffstoken bereitgestellt"
+  },
+  "readError": {
+    "message": "$1: Lesefehler"
+  },
+  "readErrorHttp": {
+    "message": "$1: Lesefehler (HTTP $2)"
+  },
+  "writeErrorHttp": {
+    "message": "$1: Schreibfehler (HTTP $2)"
+  },
+  "githubBadToken": {
+    "message": "GitHub: Token ungültig oder abgelaufen"
+  },
+  "githubNotFound": {
+    "message": "GitHub: Repository nicht gefunden oder Token ohne Zugriff"
+  },
+  "githubError": {
+    "message": "GitHub: Fehler (HTTP $1)"
+  },
+  "githubPublic": {
+    "message": "GitHub: Das Repository ist öffentlich. Verwende ein privates"
+  },
+  "githubRepoFormat": {
+    "message": "Gib das Repository als Besitzer/Name an"
+  },
+  "syncCorrupt": {
+    "message": "Die Synchronisierungsdatei ist beschädigt: Sie wird nicht überschrieben"
+  },
+  "syncNewer": {
+    "message": "Die Datei stammt aus einer neueren Version: Aktualisiere die Erweiterung"
+  },
+  "syncInvalid": {
+    "message": "Die Synchronisierungsdatei ist ungültig: Sie wird nicht überschrieben"
+  },
+  "syncBusy": {
+    "message": "Andere Geräte schreiben gerade: Versuche es gleich noch einmal"
+  }
+}
