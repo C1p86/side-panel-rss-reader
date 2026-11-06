@@ -1,6 +1,8 @@
 # RSS Reader Panel
 
-A browser extension (Manifest V3) for Chromium browsers with a side panel, such as Chrome and Vivaldi. It aggregates RSS/Atom feeds in the panel and shows each article in reading mode, taken from the original page instead of the feed text.
+A browser extension (Manifest V3) that aggregates RSS/Atom feeds in a side panel and shows each article in reading mode, taken from the original page instead of the feed text.
+
+**Browser support:** tested on Vivaldi. It should also work on other Chromium-based browsers, such as Chrome, but it has not been tested on them.
 
 ## Screenshots
 
