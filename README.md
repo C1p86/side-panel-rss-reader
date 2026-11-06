@@ -75,6 +75,16 @@ Each uploaded change becomes a commit. Changes close together are grouped by wai
 2. It extracts the article with Mozilla Readability and cleans the HTML with DOMPurify.
 3. If it gets little text or the download fails, it shows the longest text available between the page and the feed, with a warning.
 
+## Releasing
+
+Run this from Git Bash on Windows, or from any shell on Linux and macOS, with the [GitHub CLI](https://cli.github.com/) signed in:
+
+```sh
+scripts/release.sh [patch|minor|major] [--dry-run]
+```
+
+The default is `patch`. The script checks that `main` is clean and in sync with `origin`, bumps the version in `manifest.json`, commits and tags it, pushes both, and publishes a GitHub release with generated notes and the packaged extension attached as a zip. `--dry-run` only shows the version it would release.
+
 ## Included libraries
 
 In `vendor/`, each with its own license:

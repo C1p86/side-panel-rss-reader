@@ -1,0 +1,8 @@
+# Shell scripts must keep LF line endings, even in a Windows checkout.
+*.sh text eol=lf
+
+# Not part of the packaged extension.
+.gitattributes export-ignore
+README.md export-ignore
+docs export-ignore
+scripts export-ignore
